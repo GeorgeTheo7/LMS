@@ -16,7 +16,7 @@ CREATE TABLE `book` (
   `num_pages` int(10) unsigned DEFAULT NULL,
   `summary` text DEFAULT NULL,
   `num_copies` int(10) unsigned DEFAULT NULL,
-  `images` varchar(1) DEFAULT NULL,
+  `images` mediumtext DEFAULT NULL,
   `language` varchar(100) DEFAULT NULL,
   `book_status` int(10) unsigned DEFAULT NULL,
   PRIMARY KEY (`ISBN`)
@@ -129,7 +129,7 @@ CREATE TABLE `user` (
   PRIMARY KEY (`user_id`),
   KEY `user_FK` (`school_id`),
   CONSTRAINT `user_FK` FOREIGN KEY (`school_id`) REFERENCES `school` (`school_id`)
-) ENGINE=InnoDB AUTO_INCREMENT=56 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
+) ENGINE=InnoDB AUTO_INCREMENT=57 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
 
 
 -- school_lib.review definition
@@ -167,4 +167,4 @@ CREATE TABLE `transaction` (
   KEY `transaction_FK_1` (`user_id`),
   CONSTRAINT `transaction_FK` FOREIGN KEY (`ISBN`) REFERENCES `book` (`ISBN`),
   CONSTRAINT `transaction_FK_1` FOREIGN KEY (`user_id`) REFERENCES `user` (`user_id`)
-) ENGINE=InnoDB AUTO_INCREMENT=294 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
+) ENGINE=InnoDB AUTO_INCREMENT=301 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
