@@ -294,308 +294,307 @@ VALUES(95, 'Miss Claudie Prohaska MD');
 
 INSERT INTO school_lib.book
 (ISBN, title, publisher, num_pages, summary, num_copies, images, `language`, book_status)
-VALUES(1071953916, 'at', 'O''Hara Ltd', 212, 'Ipsam mollitia ex odit dolor. In hic numquam ea eius sit beatae et.', 8, 0x68, 'it', 2);
+VALUES(1071953916, 'at', 'O''Hara Ltd', 212, 'Ipsam mollitia ex odit dolor. In hic numquam ea eius sit beatae et.', 7, 'https://img.freepik.com/free-photo/book-composition-with-open-book_23-2147690555.jpg', 'it', 2);
 INSERT INTO school_lib.book
 (ISBN, title, publisher, num_pages, summary, num_copies, images, `language`, book_status)
-VALUES(1086847964, 'et', 'Keebler-Abbott', 267, 'Quo iste earum deserunt ut nemo vel vel. Cum autem minima expedita et consequatur asperiores doloribus et. Quidem dolorem numquam eius tempora.', 13, 0x68, 'cn', 2);
+VALUES(1086847964, 'et', 'Keebler-Abbott', 267, 'Quo iste earum deserunt ut nemo vel vel. Cum autem minima expedita et consequatur asperiores doloribus et. Quidem dolorem numquam eius tempora.', 13, 'https://img.freepik.com/free-photo/book-composition-with-open-book_23-2147690555.jpg', 'cn', 2);
 INSERT INTO school_lib.book
 (ISBN, title, publisher, num_pages, summary, num_copies, images, `language`, book_status)
-VALUES(1146634707, 'nam', 'Bins Inc', 430, 'Placeat molestiae deleniti maxime. Omnis ipsam quis et delectus molestiae debitis harum suscipit. Sit doloribus est nostrum architecto sit nisi.', 14, 0x68, 'en', 2);
+VALUES(1146634707, 'nam', 'Bins Inc', 430, 'Placeat molestiae deleniti maxime. Omnis ipsam quis et delectus molestiae debitis harum suscipit. Sit doloribus est nostrum architecto sit nisi.', 13, 'https://img.freepik.com/free-photo/book-composition-with-open-book_23-2147690555.jpg', 'en', 2);
 INSERT INTO school_lib.book
 (ISBN, title, publisher, num_pages, summary, num_copies, images, `language`, book_status)
-VALUES(1191406002, 'dolor', 'Connelly-Rolfson', 395, 'Doloribus quo praesentium eaque. Nemo aut sint suscipit. Voluptatum est excepturi exercitationem sequi provident voluptas quam. Aspernatur optio suscipit ab dolorem dolorem.', 12, 0x68, 'it', 2);
+VALUES(1191406002, 'dolor', 'Connelly-Rolfson', 395, 'Doloribus quo praesentium eaque. Nemo aut sint suscipit. Voluptatum est excepturi exercitationem sequi provident voluptas quam. Aspernatur optio suscipit ab dolorem dolorem.', 12, 'https://img.freepik.com/free-photo/book-composition-with-open-book_23-2147690555.jpg', 'it', 2);
 INSERT INTO school_lib.book
 (ISBN, title, publisher, num_pages, summary, num_copies, images, `language`, book_status)
-VALUES(1230423418, 'eligendi', 'Ritchie-Swift', 441, 'Illum necessitatibus iste occaecati accusamus inventore. Reprehenderit aut qui ut natus. Facilis ratione nobis ratione aliquam quo. Provident assumenda inventore similique omnis consequatur eos.', 7, 0x68, 'it', 2);
+VALUES(1230423418, 'eligendi', 'Ritchie-Swift', 441, 'Illum necessitatibus iste occaecati accusamus inventore. Reprehenderit aut qui ut natus. Facilis ratione nobis ratione aliquam quo. Provident assumenda inventore similique omnis consequatur eos.', 7, 'https://img.freepik.com/free-photo/book-composition-with-open-book_23-2147690555.jpg', 'it', 2);
 INSERT INTO school_lib.book
 (ISBN, title, publisher, num_pages, summary, num_copies, images, `language`, book_status)
-VALUES(1252364469, 'distinctio', 'Hermann, Ziemann and Hirthe', 180, 'Quis corrupti voluptate consequuntur nostrum sunt. Eius ea ea et aliquid fugit qui quasi nihil. Corporis aliquid cum minima. Aut enim id illum asperiores voluptas et magnam est.', 12, 0x68, 'es', 2);
+VALUES(1252364469, 'distinctio', 'Hermann, Ziemann and Hirthe', 180, 'Quis corrupti voluptate consequuntur nostrum sunt. Eius ea ea et aliquid fugit qui quasi nihil. Corporis aliquid cum minima. Aut enim id illum asperiores voluptas et magnam est.', 12, 'https://img.freepik.com/free-photo/book-composition-with-open-book_23-2147690555.jpg', 'es', 2);
 INSERT INTO school_lib.book
 (ISBN, title, publisher, num_pages, summary, num_copies, images, `language`, book_status)
-VALUES(1279530422, 'minima', 'Mann-Von', 478, 'Consequatur dolor optio commodi dolores est nisi. Ducimus magnam qui perferendis voluptas fuga. Dolores minima praesentium nesciunt suscipit excepturi aut.', 8, 0x68, 'cn', 2);
+VALUES(1279530422, 'minima', 'Mann-Von', 478, 'Consequatur dolor optio commodi dolores est nisi. Ducimus magnam qui perferendis voluptas fuga. Dolores minima praesentium nesciunt suscipit excepturi aut.', 8, 'https://img.freepik.com/free-photo/book-composition-with-open-book_23-2147690555.jpg', 'cn', 2);
 INSERT INTO school_lib.book
 (ISBN, title, publisher, num_pages, summary, num_copies, images, `language`, book_status)
-VALUES(1373620112, 'magnam', 'Lakin, Rath and Spinka', 332, 'Omnis cumque laboriosam quasi recusandae omnis accusamus saepe. Est incidunt odio placeat ea cum. Assumenda et voluptatibus maxime corrupti accusantium. Labore porro voluptas voluptate repudiandae.', 8, 0x68, 'es', 2);
+VALUES(1373620112, 'magnam', 'Lakin, Rath and Spinka', 332, 'Omnis cumque laboriosam quasi recusandae omnis accusamus saepe. Est incidunt odio placeat ea cum. Assumenda et voluptatibus maxime corrupti accusantium. Labore porro voluptas voluptate repudiandae.', 8, 'https://img.freepik.com/free-photo/book-composition-with-open-book_23-2147690555.jpg', 'es', 2);
 INSERT INTO school_lib.book
 (ISBN, title, publisher, num_pages, summary, num_copies, images, `language`, book_status)
-VALUES(1389010684, 'facere', 'Schneider Group', 323, 'Laborum perspiciatis in hic excepturi. Quo natus fugit quia ut. Hic est harum consequatur. Totam facere doloremque et consectetur quae aut sit libero.', 14, 0x68, 'it', 2);
+VALUES(1389010684, 'facere', 'Schneider Group', 323, 'Laborum perspiciatis in hic excepturi. Quo natus fugit quia ut. Hic est harum consequatur. Totam facere doloremque et consectetur quae aut sit libero.', 14, 'https://img.freepik.com/free-photo/book-composition-with-open-book_23-2147690555.jpg', 'it', 2);
 INSERT INTO school_lib.book
 (ISBN, title, publisher, num_pages, summary, num_copies, images, `language`, book_status)
-VALUES(1413600512, 'sint', 'Schumm, Gutmann and Larson', 255, 'Optio earum voluptatibus praesentium quisquam dolores sint. Et odit culpa dolores fugiat totam. Itaque blanditiis consequatur at aut facere sit illum. Aut nemo blanditiis eos a consequatur eos enim. Molestias voluptate non qui quas fugiat qui deleniti.', 10, 0x68, 'fr', 2);
+VALUES(1413600512, 'sint', 'Schumm, Gutmann and Larson', 255, 'Optio earum voluptatibus praesentium quisquam dolores sint. Et odit culpa dolores fugiat totam. Itaque blanditiis consequatur at aut facere sit illum. Aut nemo blanditiis eos a consequatur eos enim. Molestias voluptate non qui quas fugiat qui deleniti.', 10, 'https://img.freepik.com/free-photo/book-composition-with-open-book_23-2147690555.jpg', 'fr', 2);
 INSERT INTO school_lib.book
 (ISBN, title, publisher, num_pages, summary, num_copies, images, `language`, book_status)
-VALUES(1433321773, 'hic', 'Heaney-Harris', 219, 'Rerum in sunt sed consequatur sunt. Ratione totam commodi porro tempora.', 9, 0x68, 'fr', 2);
+VALUES(1433321773, 'hic', 'Heaney-Harris', 219, 'Rerum in sunt sed consequatur sunt. Ratione totam commodi porro tempora.', 9, 'https://img.freepik.com/free-photo/book-composition-with-open-book_23-2147690555.jpg', 'fr', 2);
 INSERT INTO school_lib.book
 (ISBN, title, publisher, num_pages, summary, num_copies, images, `language`, book_status)
-VALUES(1487567215, 'ipsam', 'McCullough-O''Reilly', 283, 'Quidem labore dolores corrupti et consequatur voluptas itaque. Qui accusantium quibusdam tempore aperiam accusantium. Sint dolores velit et incidunt delectus quis.', 15, 0x68, 'fr', 2);
+VALUES(1487567215, 'ipsam', 'McCullough-O''Reilly', 283, 'Quidem labore dolores corrupti et consequatur voluptas itaque. Qui accusantium quibusdam tempore aperiam accusantium. Sint dolores velit et incidunt delectus quis.', 15, 'https://img.freepik.com/free-photo/book-composition-with-open-book_23-2147690555.jpg', 'fr', 2);
 INSERT INTO school_lib.book
 (ISBN, title, publisher, num_pages, summary, num_copies, images, `language`, book_status)
-VALUES(1565072107, 'rem', 'Mitchell-Greenfelder', 246, 'Molestias omnis officiis corrupti aspernatur accusantium in. Et et perferendis voluptas molestias adipisci officia. Omnis voluptatem natus dolor.', 5, 0x68, 'es', 2);
+VALUES(1565072107, 'rem', 'Mitchell-Greenfelder', 246, 'Molestias omnis officiis corrupti aspernatur accusantium in. Et et perferendis voluptas molestias adipisci officia. Omnis voluptatem natus dolor.', 5, 'https://img.freepik.com/free-photo/book-composition-with-open-book_23-2147690555.jpg', 'es', 2);
 INSERT INTO school_lib.book
 (ISBN, title, publisher, num_pages, summary, num_copies, images, `language`, book_status)
-VALUES(1597754095, 'sed', 'Harvey-Rutherford', 418, 'Adipisci omnis facere praesentium minima sit voluptatibus. Nihil neque labore aut voluptatem. Nihil optio perspiciatis rem voluptas sit esse.', 8, 0x68, 'en', 2);
+VALUES(1597754095, 'sed', 'Harvey-Rutherford', 418, 'Adipisci omnis facere praesentium minima sit voluptatibus. Nihil neque labore aut voluptatem. Nihil optio perspiciatis rem voluptas sit esse.', 8, 'https://img.freepik.com/free-photo/book-composition-with-open-book_23-2147690555.jpg', 'en', 2);
 INSERT INTO school_lib.book
 (ISBN, title, publisher, num_pages, summary, num_copies, images, `language`, book_status)
-VALUES(1636263433, 'et', 'Schuster, Harris and Crona', 136, 'Saepe illum dolores aspernatur esse. Aut eum vero delectus.', 11, 0x68, 'pt', 2);
+VALUES(1636263433, 'et', 'Schuster, Harris and Crona', 136, 'Saepe illum dolores aspernatur esse. Aut eum vero delectus.', 11, 'https://img.freepik.com/free-photo/book-composition-with-open-book_23-2147690555.jpg', 'pt', 2);
 INSERT INTO school_lib.book
 (ISBN, title, publisher, num_pages, summary, num_copies, images, `language`, book_status)
-VALUES(1649301220, 'voluptatem', 'Fahey PLC', 263, 'Unde est et ratione sed ullam quo. Aspernatur voluptates aut tempore debitis dolorum libero. Rerum hic dolores eos est corporis est ut.', 7, 0x68, 'it', 2);
+VALUES(1649301220, 'voluptatem', 'Fahey PLC', 263, 'Unde est et ratione sed ullam quo. Aspernatur voluptates aut tempore debitis dolorum libero. Rerum hic dolores eos est corporis est ut.', 7, 'https://img.freepik.com/free-photo/book-composition-with-open-book_23-2147690555.jpg', 'it', 2);
 INSERT INTO school_lib.book
 (ISBN, title, publisher, num_pages, summary, num_copies, images, `language`, book_status)
-VALUES(1690705637, 'est', 'Ritchie LLC', 194, 'Accusantium corrupti vel perferendis distinctio laudantium. Minima expedita nobis dolore ab explicabo similique laboriosam. Voluptatem aut qui similique fuga odio totam voluptate libero. Tempore doloribus aut explicabo eligendi esse.', 8, 0x68, 'ru', 2);
+VALUES(1690705637, 'est', 'Ritchie LLC', 194, 'Accusantium corrupti vel perferendis distinctio laudantium. Minima expedita nobis dolore ab explicabo similique laboriosam. Voluptatem aut qui similique fuga odio totam voluptate libero. Tempore doloribus aut explicabo eligendi esse.', 8, 'https://img.freepik.com/free-photo/book-composition-with-open-book_23-2147690555.jpg', 'ru', 2);
 INSERT INTO school_lib.book
 (ISBN, title, publisher, num_pages, summary, num_copies, images, `language`, book_status)
-VALUES(1734732728, 'eos', 'Schumm, Tremblay and Cremin', 285, 'Quibusdam et inventore consectetur expedita excepturi enim perferendis rerum. Dolor ut id quaerat quia maiores.', 9, 0x68, 'de', 2);
+VALUES(1734732728, 'eos', 'Schumm, Tremblay and Cremin', 285, 'Quibusdam et inventore consectetur expedita excepturi enim perferendis rerum. Dolor ut id quaerat quia maiores.', 9, 'https://img.freepik.com/free-photo/book-composition-with-open-book_23-2147690555.jpg', 'de', 2);
 INSERT INTO school_lib.book
 (ISBN, title, publisher, num_pages, summary, num_copies, images, `language`, book_status)
-VALUES(1750578633, 'aut', 'Towne-Zemlak', 161, 'Est maxime magni provident omnis voluptatem voluptate. Exercitationem eligendi voluptate minima aut. Et explicabo illo eos sequi ut voluptatem. Doloribus exercitationem quis soluta voluptatem quo.', 6, 0x68, 'pt', 2);
+VALUES(1750578633, 'aut', 'Towne-Zemlak', 161, 'Est maxime magni provident omnis voluptatem voluptate. Exercitationem eligendi voluptate minima aut. Et explicabo illo eos sequi ut voluptatem. Doloribus exercitationem quis soluta voluptatem quo.', 6, 'https://img.freepik.com/free-photo/book-composition-with-open-book_23-2147690555.jpg', 'pt', 2);
 INSERT INTO school_lib.book
 (ISBN, title, publisher, num_pages, summary, num_copies, images, `language`, book_status)
-VALUES(1769821979, 'consequatur', 'Powlowski Ltd', 146, 'Vel et assumenda libero. Dolores et mollitia vitae minima est. Quasi earum eum officia eaque exercitationem et est.', 9, 0x68, 'pt', 2);
+VALUES(1769821979, 'consequatur', 'Powlowski Ltd', 146, 'Vel et assumenda libero. Dolores et mollitia vitae minima est. Quasi earum eum officia eaque exercitationem et est.', 9, 'https://img.freepik.com/free-photo/book-composition-with-open-book_23-2147690555.jpg', 'pt', 2);
 INSERT INTO school_lib.book
 (ISBN, title, publisher, num_pages, summary, num_copies, images, `language`, book_status)
-VALUES(1792088863, 'delectus', 'Streich-Kutch', 131, 'Vitae iusto ratione harum et enim quae est. Assumenda qui quisquam nihil neque voluptatem ullam veritatis. Ab ratione quasi nam qui et soluta. Consequuntur iste enim unde itaque.', 15, 0x68, 'pt', 2);
+VALUES(1792088863, 'delectus', 'Streich-Kutch', 131, 'Vitae iusto ratione harum et enim quae est. Assumenda qui quisquam nihil neque voluptatem ullam veritatis. Ab ratione quasi nam qui et soluta. Consequuntur iste enim unde itaque.', 15, 'https://img.freepik.com/free-photo/book-composition-with-open-book_23-2147690555.jpg', 'pt', 2);
 INSERT INTO school_lib.book
 (ISBN, title, publisher, num_pages, summary, num_copies, images, `language`, book_status)
-VALUES(1881029380, 'perferendis', 'Hoppe LLC', 287, 'Veritatis aut aspernatur quis voluptate facere molestiae. Facere quo rerum et dolor modi. Occaecati officia facere atque eveniet sed laboriosam minima. Totam repudiandae voluptatem asperiores maxime ut occaecati animi. Voluptates tempora explicabo sit quas.', 7, 0x68, 'cn', 2);
+VALUES(1881029380, 'perferendis', 'Hoppe LLC', 287, 'Veritatis aut aspernatur quis voluptate facere molestiae. Facere quo rerum et dolor modi. Occaecati officia facere atque eveniet sed laboriosam minima. Totam repudiandae voluptatem asperiores maxime ut occaecati animi. Voluptates tempora explicabo sit quas.', 7, 'https://img.freepik.com/free-photo/book-composition-with-open-book_23-2147690555.jpg', 'cn', 2);
 INSERT INTO school_lib.book
 (ISBN, title, publisher, num_pages, summary, num_copies, images, `language`, book_status)
-VALUES(1887691000, 'suscipit', 'Kertzmann, Rath and Towne', 124, 'Unde consequatur dicta non omnis nemo beatae non. Reprehenderit eos deserunt aperiam accusamus iste provident iusto id. Repudiandae exercitationem voluptates ex molestiae officia doloribus. Eum modi enim doloremque quae.', 9, 0x68, 'de', 2);
+VALUES(1887691000, 'suscipit', 'Kertzmann, Rath and Towne', 124, 'Unde consequatur dicta non omnis nemo beatae non. Reprehenderit eos deserunt aperiam accusamus iste provident iusto id. Repudiandae exercitationem voluptates ex molestiae officia doloribus. Eum modi enim doloremque quae.', 9, 'https://img.freepik.com/free-photo/book-composition-with-open-book_23-2147690555.jpg', 'de', 2);
 INSERT INTO school_lib.book
 (ISBN, title, publisher, num_pages, summary, num_copies, images, `language`, book_status)
-VALUES(1901021427, 'reiciendis', 'Rogahn Group', 227, 'Dolore rerum et voluptatem cupiditate autem. Tempore praesentium quibusdam rerum voluptate quia consequuntur deserunt. Libero ut est similique atque et tenetur itaque. Maxime incidunt aliquid accusantium tempore rerum beatae.', 7, 0x68, 'pt', 2);
+VALUES(1901021427, 'reiciendis', 'Rogahn Group', 227, 'Dolore rerum et voluptatem cupiditate autem. Tempore praesentium quibusdam rerum voluptate quia consequuntur deserunt. Libero ut est similique atque et tenetur itaque. Maxime incidunt aliquid accusantium tempore rerum beatae.', 7, 'https://img.freepik.com/free-photo/book-composition-with-open-book_23-2147690555.jpg', 'pt', 2);
 INSERT INTO school_lib.book
 (ISBN, title, publisher, num_pages, summary, num_copies, images, `language`, book_status)
-VALUES(1906007459, 'et', 'Kilback, Luettgen and Rempel', 278, 'Et voluptatem maiores aliquam tenetur et doloribus. Et veritatis suscipit sit. Architecto eos cupiditate cupiditate quo exercitationem.', 13, 0x68, 'es', 2);
+VALUES(1906007459, 'et', 'Kilback, Luettgen and Rempel', 278, 'Et voluptatem maiores aliquam tenetur et doloribus. Et veritatis suscipit sit. Architecto eos cupiditate cupiditate quo exercitationem.', 13, 'https://img.freepik.com/free-photo/book-composition-with-open-book_23-2147690555.jpg', 'es', 2);
 INSERT INTO school_lib.book
 (ISBN, title, publisher, num_pages, summary, num_copies, images, `language`, book_status)
-VALUES(1915803524, 'voluptatum', 'Thompson-Ondricka', 260, 'Impedit veniam architecto ut. Occaecati omnis odit vitae ad pariatur libero. Quasi eligendi possimus quia minus quis error. Nostrum tempore ut reiciendis perspiciatis.', 14, 0x68, 'de', 2);
+VALUES(1915803524, 'voluptatum', 'Thompson-Ondricka', 260, 'Impedit veniam architecto ut. Occaecati omnis odit vitae ad pariatur libero. Quasi eligendi possimus quia minus quis error. Nostrum tempore ut reiciendis perspiciatis.', 14, 'https://img.freepik.com/free-photo/book-composition-with-open-book_23-2147690555.jpg', 'de', 2);
 INSERT INTO school_lib.book
 (ISBN, title, publisher, num_pages, summary, num_copies, images, `language`, book_status)
-VALUES(1917004279, 'et', 'Shanahan-Dickinson', 118, 'Sapiente similique harum fugiat itaque necessitatibus nobis excepturi. Ratione est voluptates sequi veniam impedit fuga. Similique repellat velit et harum consequatur explicabo odio. Dolorum corrupti temporibus earum temporibus.', 15, 0x68, 'it', 2);
+VALUES(1917004279, 'et', 'Shanahan-Dickinson', 118, 'Sapiente similique harum fugiat itaque necessitatibus nobis excepturi. Ratione est voluptates sequi veniam impedit fuga. Similique repellat velit et harum consequatur explicabo odio. Dolorum corrupti temporibus earum temporibus.', 15, 'https://img.freepik.com/free-photo/book-composition-with-open-book_23-2147690555.jpg', 'it', 2);
 INSERT INTO school_lib.book
 (ISBN, title, publisher, num_pages, summary, num_copies, images, `language`, book_status)
-VALUES(1963962468, 'quos', 'O''Conner, Rosenbaum and Bartoletti', 197, 'Ipsam sapiente illum omnis quibusdam aut porro. Veniam eveniet aut nam est suscipit quae. Ad labore eius optio vero fugit sequi inventore ad.', 7, 0x68, 'it', 2);
+VALUES(1963962468, 'quos', 'O''Conner, Rosenbaum and Bartoletti', 197, 'Ipsam sapiente illum omnis quibusdam aut porro. Veniam eveniet aut nam est suscipit quae. Ad labore eius optio vero fugit sequi inventore ad.', 7, 'https://img.freepik.com/free-photo/book-composition-with-open-book_23-2147690555.jpg', 'it', 2);
 INSERT INTO school_lib.book
 (ISBN, title, publisher, num_pages, summary, num_copies, images, `language`, book_status)
-VALUES(2004872161, 'voluptatem', 'Hane, Batz and Kerluke', 285, 'Omnis culpa explicabo architecto dolorum. Et fugiat enim atque.', 9, 0x68, 'cn', 2);
+VALUES(2004872161, 'voluptatem', 'Hane, Batz and Kerluke', 285, 'Omnis culpa explicabo architecto dolorum. Et fugiat enim atque.', 9, 'https://img.freepik.com/free-photo/book-composition-with-open-book_23-2147690555.jpg', 'cn', 2);
 INSERT INTO school_lib.book
 (ISBN, title, publisher, num_pages, summary, num_copies, images, `language`, book_status)
-VALUES(2010782732, 'qui', 'Gottlieb, O''Keefe and Stroman', 239, 'Rerum reiciendis voluptatem recusandae. Ducimus consequatur placeat illo aliquid aliquam laudantium maiores. Quia natus rerum quia cupiditate similique consequuntur. Dolore nesciunt dolorem quibusdam rerum officiis praesentium sit.', 11, 0x68, 'es', 2);
+VALUES(2010782732, 'qui', 'Gottlieb, O''Keefe and Stroman', 239, 'Rerum reiciendis voluptatem recusandae. Ducimus consequatur placeat illo aliquid aliquam laudantium maiores. Quia natus rerum quia cupiditate similique consequuntur. Dolore nesciunt dolorem quibusdam rerum officiis praesentium sit.', 11, 'https://img.freepik.com/free-photo/book-composition-with-open-book_23-2147690555.jpg', 'es', 2);
 INSERT INTO school_lib.book
 (ISBN, title, publisher, num_pages, summary, num_copies, images, `language`, book_status)
-VALUES(2022488326, 'numquam', 'Kilback, Koelpin and Daniel', 433, 'Unde temporibus architecto tenetur fuga ut. Est illo est recusandae incidunt. Modi aut possimus dolores inventore ad. Consequatur perferendis iusto expedita alias qui amet. Quaerat enim modi suscipit voluptatibus dolor vel sint tempora.', 15, 0x68, 'pt', 2);
+VALUES(2022488326, 'numquam', 'Kilback, Koelpin and Daniel', 433, 'Unde temporibus architecto tenetur fuga ut. Est illo est recusandae incidunt. Modi aut possimus dolores inventore ad. Consequatur perferendis iusto expedita alias qui amet. Quaerat enim modi suscipit voluptatibus dolor vel sint tempora.', 15, 'https://img.freepik.com/free-photo/book-composition-with-open-book_23-2147690555.jpg', 'pt', 2);
 INSERT INTO school_lib.book
 (ISBN, title, publisher, num_pages, summary, num_copies, images, `language`, book_status)
-VALUES(2045083548, 'in', 'Hand PLC', 109, 'In et necessitatibus est quo autem iusto. Est voluptatum dignissimos dicta reprehenderit quidem illo. Nihil pariatur et error vel quibusdam sed repellendus veniam. Fuga voluptatum sunt cupiditate sapiente architecto omnis eaque.', 5, 0x68, 'es', 2);
+VALUES(2045083548, 'in', 'Hand PLC', 109, 'In et necessitatibus est quo autem iusto. Est voluptatum dignissimos dicta reprehenderit quidem illo. Nihil pariatur et error vel quibusdam sed repellendus veniam. Fuga voluptatum sunt cupiditate sapiente architecto omnis eaque.', 5, 'https://img.freepik.com/free-photo/book-composition-with-open-book_23-2147690555.jpg', 'es', 2);
 INSERT INTO school_lib.book
 (ISBN, title, publisher, num_pages, summary, num_copies, images, `language`, book_status)
-VALUES(2074653865, 'ut', 'Cartwright, Abshire and Romaguera', 379, 'Dolores in porro quisquam et incidunt et consequatur et. Mollitia est fugit labore est perferendis. Illum est similique architecto omnis.', 5, 0x68, 'de', 2);
+VALUES(2074653865, 'ut', 'Cartwright, Abshire and Romaguera', 379, 'Dolores in porro quisquam et incidunt et consequatur et. Mollitia est fugit labore est perferendis. Illum est similique architecto omnis.', 5, 'https://img.freepik.com/free-photo/book-composition-with-open-book_23-2147690555.jpg', 'de', 2);
 INSERT INTO school_lib.book
 (ISBN, title, publisher, num_pages, summary, num_copies, images, `language`, book_status)
-VALUES(2094614387, 'cumque', 'Blanda, Nicolas and Bogan', 453, 'Voluptatem eligendi maxime voluptatem consequatur. Eaque deserunt quia quis nam excepturi nostrum quis. Velit expedita cupiditate maiores eius sapiente totam autem mollitia. Et non sit facilis et delectus dicta placeat. At quia voluptatum aut ad explicabo.', 9, 0x68, 'it', 2);
+VALUES(2094614387, 'cumque', 'Blanda, Nicolas and Bogan', 453, 'Voluptatem eligendi maxime voluptatem consequatur. Eaque deserunt quia quis nam excepturi nostrum quis. Velit expedita cupiditate maiores eius sapiente totam autem mollitia. Et non sit facilis et delectus dicta placeat. At quia voluptatum aut ad explicabo.', 9, 'https://img.freepik.com/free-photo/book-composition-with-open-book_23-2147690555.jpg', 'it', 2);
 INSERT INTO school_lib.book
 (ISBN, title, publisher, num_pages, summary, num_copies, images, `language`, book_status)
-VALUES(2117869043, 'eveniet', 'Spencer Inc', 134, 'Modi quia fugit in laborum voluptatem. Beatae voluptatem qui consequatur blanditiis. Velit eveniet eum ut rerum cum.', 11, 0x68, 'ru', 2);
+VALUES(2117869043, 'eveniet', 'Spencer Inc', 134, 'Modi quia fugit in laborum voluptatem. Beatae voluptatem qui consequatur blanditiis. Velit eveniet eum ut rerum cum.', 11, 'https://img.freepik.com/free-photo/book-composition-with-open-book_23-2147690555.jpg', 'ru', 2);
 INSERT INTO school_lib.book
 (ISBN, title, publisher, num_pages, summary, num_copies, images, `language`, book_status)
-VALUES(2134658685, 'molestiae', 'O''Connell, Spencer and Roberts', 429, 'Aut est doloribus necessitatibus omnis aut reiciendis aut. Placeat harum maiores et. Ut tenetur qui voluptatem et voluptatem voluptas. Beatae aut voluptatem minima eius sed.', 9, 0x68, 'ru', 2);
+VALUES(2134658685, 'molestiae', 'O''Connell, Spencer and Roberts', 429, 'Aut est doloribus necessitatibus omnis aut reiciendis aut. Placeat harum maiores et. Ut tenetur qui voluptatem et voluptatem voluptas. Beatae aut voluptatem minima eius sed.', 9, 'https://img.freepik.com/free-photo/book-composition-with-open-book_23-2147690555.jpg', 'ru', 2);
 INSERT INTO school_lib.book
 (ISBN, title, publisher, num_pages, summary, num_copies, images, `language`, book_status)
-VALUES(2151394262, 'tenetur', 'Satterfield-Effertz', 156, 'Et aliquid aut neque iste impedit et repellat. Nulla recusandae praesentium molestias dolor rerum voluptates quaerat. Et dolores veritatis veniam consequatur distinctio repellendus nobis. Asperiores aut eveniet qui qui.', 9, 0x68, 'es', 2);
+VALUES(2151394262, 'tenetur', 'Satterfield-Effertz', 156, 'Et aliquid aut neque iste impedit et repellat. Nulla recusandae praesentium molestias dolor rerum voluptates quaerat. Et dolores veritatis veniam consequatur distinctio repellendus nobis. Asperiores aut eveniet qui qui.', 9, 'https://img.freepik.com/free-photo/book-composition-with-open-book_23-2147690555.jpg', 'es', 2);
 INSERT INTO school_lib.book
 (ISBN, title, publisher, num_pages, summary, num_copies, images, `language`, book_status)
-VALUES(2198073157, 'officiis', 'Collins LLC', 443, 'Deserunt amet ab beatae et aut. Et et dolorem non voluptatem quis suscipit. Atque dolore voluptatum qui officiis in. Ducimus et natus perferendis quis non adipisci sit.', 10, 0x68, 'pt', 2);
+VALUES(2198073157, 'officiis', 'Collins LLC', 443, 'Deserunt amet ab beatae et aut. Et et dolorem non voluptatem quis suscipit. Atque dolore voluptatum qui officiis in. Ducimus et natus perferendis quis non adipisci sit.', 10, 'https://img.freepik.com/free-photo/book-composition-with-open-book_23-2147690555.jpg', 'pt', 2);
 INSERT INTO school_lib.book
 (ISBN, title, publisher, num_pages, summary, num_copies, images, `language`, book_status)
-VALUES(2209232827, 'repellendus', 'Price, Watsica and Brown', 293, 'Sunt maxime id non voluptatem explicabo. Maiores ut maxime culpa reiciendis iure. Et sed possimus numquam voluptatem maiores. Consequuntur consequatur debitis laborum dolorem asperiores.', 11, 0x68, 'ru', 2);
+VALUES(2209232827, 'repellendus', 'Price, Watsica and Brown', 293, 'Sunt maxime id non voluptatem explicabo. Maiores ut maxime culpa reiciendis iure. Et sed possimus numquam voluptatem maiores. Consequuntur consequatur debitis laborum dolorem asperiores.', 11, 'https://img.freepik.com/free-photo/book-composition-with-open-book_23-2147690555.jpg', 'ru', 2);
 INSERT INTO school_lib.book
 (ISBN, title, publisher, num_pages, summary, num_copies, images, `language`, book_status)
-VALUES(2290059243, 'quia', 'Upton-Sauer', 438, 'Minus veniam quos cupiditate nemo architecto qui. Aut ad impedit ea. Iure eum eius consequatur soluta. Vel distinctio exercitationem in id autem.', 15, 0x68, 'fr', 2);
+VALUES(2290059243, 'quia', 'Upton-Sauer', 438, 'Minus veniam quos cupiditate nemo architecto qui. Aut ad impedit ea. Iure eum eius consequatur soluta. Vel distinctio exercitationem in id autem.', 15, 'https://img.freepik.com/free-photo/book-composition-with-open-book_23-2147690555.jpg', 'fr', 2);
 INSERT INTO school_lib.book
 (ISBN, title, publisher, num_pages, summary, num_copies, images, `language`, book_status)
-VALUES(2339601579, 'laudantium', 'Sporer-Wisoky', 243, 'Nisi dolorum eius ex nihil. Explicabo iure aut adipisci adipisci error quia ipsa quia. Natus culpa vitae deleniti dignissimos voluptates provident quos. Delectus necessitatibus dolor temporibus cupiditate sit quos.', 8, 0x68, 'en', 2);
+VALUES(2339601579, 'laudantium', 'Sporer-Wisoky', 243, 'Nisi dolorum eius ex nihil. Explicabo iure aut adipisci adipisci error quia ipsa quia. Natus culpa vitae deleniti dignissimos voluptates provident quos. Delectus necessitatibus dolor temporibus cupiditate sit quos.', 8, 'https://img.freepik.com/free-photo/book-composition-with-open-book_23-2147690555.jpg', 'en', 2);
 INSERT INTO school_lib.book
 (ISBN, title, publisher, num_pages, summary, num_copies, images, `language`, book_status)
-VALUES(2352019659, 'et', 'Gleichner Inc', 427, 'Asperiores aut alias est et est voluptatum pariatur. Quos repellat delectus et et ipsam totam. Consequatur doloribus in ut molestiae non.', 7, 0x68, 'es', 2);
+VALUES(2352019659, 'et', 'Gleichner Inc', 427, 'Asperiores aut alias est et est voluptatum pariatur. Quos repellat delectus et et ipsam totam. Consequatur doloribus in ut molestiae non.', 7, 'https://img.freepik.com/free-photo/book-composition-with-open-book_23-2147690555.jpg', 'es', 2);
 INSERT INTO school_lib.book
 (ISBN, title, publisher, num_pages, summary, num_copies, images, `language`, book_status)
-VALUES(2362905305, 'quae', 'Runolfsdottir Group', 466, 'Fugit in dolorem enim unde aut natus inventore consequatur. Dolore rerum distinctio facere illo et. Quae ducimus consequuntur distinctio iusto molestiae est. Tempora facere dolore fuga dolor totam.', 9, 0x68, 'ru', 2);
+VALUES(2362905305, 'quae', 'Runolfsdottir Group', 466, 'Fugit in dolorem enim unde aut natus inventore consequatur. Dolore rerum distinctio facere illo et. Quae ducimus consequuntur distinctio iusto molestiae est. Tempora facere dolore fuga dolor totam.', 9, 'https://img.freepik.com/free-photo/book-composition-with-open-book_23-2147690555.jpg', 'ru', 2);
 INSERT INTO school_lib.book
 (ISBN, title, publisher, num_pages, summary, num_copies, images, `language`, book_status)
-VALUES(2381383789, 'distinctio', 'Olson LLC', 197, 'Voluptatem voluptatem nisi dolor velit eos. Ipsam sint tempore explicabo doloribus ut et iure.', 8, 0x68, 'fr', 2);
+VALUES(2381383789, 'distinctio', 'Olson LLC', 197, 'Voluptatem voluptatem nisi dolor velit eos. Ipsam sint tempore explicabo doloribus ut et iure.', 8, 'https://img.freepik.com/free-photo/book-composition-with-open-book_23-2147690555.jpg', 'fr', 2);
 INSERT INTO school_lib.book
 (ISBN, title, publisher, num_pages, summary, num_copies, images, `language`, book_status)
-VALUES(2474227933, 'architecto', 'Kshlerin Ltd', 124, 'Tempora tempore deserunt distinctio quos inventore nostrum. Et minima pariatur facilis quos est commodi. Beatae quam ut officia expedita ullam expedita corporis.', 12, 0x68, 'en', 2);
+VALUES(2474227933, 'architecto', 'Kshlerin Ltd', 124, 'Tempora tempore deserunt distinctio quos inventore nostrum. Et minima pariatur facilis quos est commodi. Beatae quam ut officia expedita ullam expedita corporis.', 12, 'https://img.freepik.com/free-photo/book-composition-with-open-book_23-2147690555.jpg', 'en', 2);
 INSERT INTO school_lib.book
 (ISBN, title, publisher, num_pages, summary, num_copies, images, `language`, book_status)
-VALUES(2474784286, 'ut', 'Swaniawski-Larson', 331, 'Eum quis sed porro aut et. Molestiae tempora id debitis et fugiat dolor et. Rem qui nemo pariatur odio.', 6, 0x68, 'cn', 2);
+VALUES(2474784286, 'ut', 'Swaniawski-Larson', 331, 'Eum quis sed porro aut et. Molestiae tempora id debitis et fugiat dolor et. Rem qui nemo pariatur odio.', 6, 'https://img.freepik.com/free-photo/book-composition-with-open-book_23-2147690555.jpg', 'cn', 2);
 INSERT INTO school_lib.book
 (ISBN, title, publisher, num_pages, summary, num_copies, images, `language`, book_status)
-VALUES(2507344536, 'est', 'Mayert-Parker', 192, 'Possimus dolore dolorum alias impedit. Nam natus enim ipsam enim cumque. Id vel rerum magnam minus consectetur assumenda est. Sit quisquam id quod velit.', 5, 0x68, 'es', 2);
+VALUES(2507344536, 'est', 'Mayert-Parker', 192, 'Possimus dolore dolorum alias impedit. Nam natus enim ipsam enim cumque. Id vel rerum magnam minus consectetur assumenda est. Sit quisquam id quod velit.', 5, 'https://img.freepik.com/free-photo/book-composition-with-open-book_23-2147690555.jpg', 'es', 2);
 INSERT INTO school_lib.book
 (ISBN, title, publisher, num_pages, summary, num_copies, images, `language`, book_status)
-VALUES(2507677778, 'excepturi', 'Zboncak Inc', 404, 'Nemo itaque quia et odit et. Provident aliquam rerum in sint. Sed earum esse modi.', 8, 0x68, 'de', 2);
+VALUES(2507677778, 'excepturi', 'Zboncak Inc', 404, 'Nemo itaque quia et odit et. Provident aliquam rerum in sint. Sed earum esse modi.', 8, 'https://img.freepik.com/free-photo/book-composition-with-open-book_23-2147690555.jpg', 'de', 2);
 INSERT INTO school_lib.book
 (ISBN, title, publisher, num_pages, summary, num_copies, images, `language`, book_status)
-VALUES(2516010187, 'rerum', 'Price Ltd', 385, 'Ea sunt quisquam adipisci ducimus quia est. Quasi est autem sapiente pariatur accusamus. Sit ducimus nesciunt labore natus dolorem corrupti quia. Laudantium aut odio suscipit est provident reprehenderit quod eius. Maxime eos porro vel beatae.', 11, 0x68, 'ru', 2);
+VALUES(2516010187, 'rerum', 'Price Ltd', 385, 'Ea sunt quisquam adipisci ducimus quia est. Quasi est autem sapiente pariatur accusamus. Sit ducimus nesciunt labore natus dolorem corrupti quia. Laudantium aut odio suscipit est provident reprehenderit quod eius. Maxime eos porro vel beatae.', 11, 'https://img.freepik.com/free-photo/book-composition-with-open-book_23-2147690555.jpg', 'ru', 2);
 INSERT INTO school_lib.book
 (ISBN, title, publisher, num_pages, summary, num_copies, images, `language`, book_status)
-VALUES(2541824557, 'molestias', 'Waters, Wyman and Tromp', 179, 'In aut voluptatem ad neque nulla totam. Id sequi deleniti ipsum. Dolorem in rem quibusdam sed fugiat.', 8, 0x68, 'en', 2);
+VALUES(2541824557, 'molestias', 'Waters, Wyman and Tromp', 179, 'In aut voluptatem ad neque nulla totam. Id sequi deleniti ipsum. Dolorem in rem quibusdam sed fugiat.', 8, 'https://img.freepik.com/free-photo/book-composition-with-open-book_23-2147690555.jpg', 'en', 2);
 INSERT INTO school_lib.book
 (ISBN, title, publisher, num_pages, summary, num_copies, images, `language`, book_status)
-VALUES(2584479192, 'nostrum', 'Wisozk PLC', 275, 'Exercitationem aspernatur facilis cum error. Deserunt laudantium rem reiciendis libero quaerat. Ut aspernatur molestias incidunt atque.', 15, 0x68, 'fr', 2);
+VALUES(2584479192, 'nostrum', 'Wisozk PLC', 275, 'Exercitationem aspernatur facilis cum error. Deserunt laudantium rem reiciendis libero quaerat. Ut aspernatur molestias incidunt atque.', 15, 'https://img.freepik.com/free-photo/book-composition-with-open-book_23-2147690555.jpg', 'fr', 2);
 INSERT INTO school_lib.book
 (ISBN, title, publisher, num_pages, summary, num_copies, images, `language`, book_status)
-VALUES(2711594369, 'et', 'Prohaska-Walter', 452, 'Eaque quaerat aliquid voluptatum cupiditate sint tempora. Quia odio esse dolorem consequatur. Possimus minima facere quia quo et et exercitationem. Accusamus tenetur beatae architecto non sit.', 8, 0x68, 'cn', 2);
+VALUES(2711594369, 'et', 'Prohaska-Walter', 452, 'Eaque quaerat aliquid voluptatum cupiditate sint tempora. Quia odio esse dolorem consequatur. Possimus minima facere quia quo et et exercitationem. Accusamus tenetur beatae architecto non sit.', 8, 'https://img.freepik.com/free-photo/book-composition-with-open-book_23-2147690555.jpg', 'cn', 2);
 INSERT INTO school_lib.book
 (ISBN, title, publisher, num_pages, summary, num_copies, images, `language`, book_status)
-VALUES(2730834547, 'id', 'Shanahan Inc', 401, 'Quas occaecati id quasi est quas. Deserunt aliquam et nostrum quo non officiis. Earum commodi sequi molestiae id necessitatibus.', 10, 0x68, 'fr', 2);
+VALUES(2730834547, 'id', 'Shanahan Inc', 401, 'Quas occaecati id quasi est quas. Deserunt aliquam et nostrum quo non officiis. Earum commodi sequi molestiae id necessitatibus.', 10, 'https://img.freepik.com/free-photo/book-composition-with-open-book_23-2147690555.jpg', 'fr', 2);
 INSERT INTO school_lib.book
 (ISBN, title, publisher, num_pages, summary, num_copies, images, `language`, book_status)
-VALUES(2784526064, 'architecto', 'Boyle, Cremin and Lemke', 335, 'A eligendi non minima rerum commodi. Animi reprehenderit voluptas magnam et quod. Asperiores provident natus molestiae ipsa.', 7, 0x68, 'en', 2);
+VALUES(2784526064, 'architecto', 'Boyle, Cremin and Lemke', 335, 'A eligendi non minima rerum commodi. Animi reprehenderit voluptas magnam et quod. Asperiores provident natus molestiae ipsa.', 7, 'https://img.freepik.com/free-photo/book-composition-with-open-book_23-2147690555.jpg', 'en', 2);
 INSERT INTO school_lib.book
 (ISBN, title, publisher, num_pages, summary, num_copies, images, `language`, book_status)
-VALUES(2786846406, 'in', 'Blanda and Sons', 464, 'Aut possimus aut totam voluptas quia. Est quo rem quasi. Blanditiis quasi tempora voluptas quod. Inventore qui nihil sint sit.', 7, 0x68, 'es', 2);
+VALUES(2786846406, 'in', 'Blanda and Sons', 464, 'Aut possimus aut totam voluptas quia. Est quo rem quasi. Blanditiis quasi tempora voluptas quod. Inventore qui nihil sint sit.', 7, 'https://img.freepik.com/free-photo/book-composition-with-open-book_23-2147690555.jpg', 'es', 2);
 INSERT INTO school_lib.book
 (ISBN, title, publisher, num_pages, summary, num_copies, images, `language`, book_status)
-VALUES(2808868455, 'consequuntur', 'Abbott, Satterfield and Pagac', 182, 'Impedit deleniti voluptas molestiae dignissimos velit. Soluta minus asperiores officia molestiae similique. Sit voluptates libero ducimus molestiae aut qui. Possimus exercitationem possimus fuga perferendis. Neque a ratione sequi.', 6, 0x68, 'en', 2);
+VALUES(2808868455, 'consequuntur', 'Abbott, Satterfield and Pagac', 182, 'Impedit deleniti voluptas molestiae dignissimos velit. Soluta minus asperiores officia molestiae similique. Sit voluptates libero ducimus molestiae aut qui. Possimus exercitationem possimus fuga perferendis. Neque a ratione sequi.', 6, 'https://img.freepik.com/free-photo/book-composition-with-open-book_23-2147690555.jpg', 'en', 2);
 INSERT INTO school_lib.book
 (ISBN, title, publisher, num_pages, summary, num_copies, images, `language`, book_status)
-VALUES(2874081058, 'et', 'Klein, Erdman and Ferry', 304, 'Pariatur non laudantium iusto. Eum sit qui quo maxime qui. Rem quas qui tempore molestiae. Rerum voluptate sunt laborum amet.', 5, 0x68, 'fr', 2);
+VALUES(2874081058, 'et', 'Klein, Erdman and Ferry', 304, 'Pariatur non laudantium iusto. Eum sit qui quo maxime qui. Rem quas qui tempore molestiae. Rerum voluptate sunt laborum amet.', 5, 'https://img.freepik.com/free-photo/book-composition-with-open-book_23-2147690555.jpg', 'fr', 2);
 INSERT INTO school_lib.book
 (ISBN, title, publisher, num_pages, summary, num_copies, images, `language`, book_status)
-VALUES(2938674202, 'excepturi', 'Jacobson, Doyle and Turcotte', 238, 'Commodi consequuntur eius sapiente. Omnis error consectetur accusantium minus occaecati voluptates ipsum. Repellat omnis natus aut ut dolorem. Sed eaque ipsa odit at est dicta.', 5, 0x68, 'de', 2);
+VALUES(2938674202, 'excepturi', 'Jacobson, Doyle and Turcotte', 238, 'Commodi consequuntur eius sapiente. Omnis error consectetur accusantium minus occaecati voluptates ipsum. Repellat omnis natus aut ut dolorem. Sed eaque ipsa odit at est dicta.', 5, 'https://img.freepik.com/free-photo/book-composition-with-open-book_23-2147690555.jpg', 'de', 2);
 INSERT INTO school_lib.book
 (ISBN, title, publisher, num_pages, summary, num_copies, images, `language`, book_status)
-VALUES(2956978004, 'repudiandae', 'Weissnat-Beahan', 360, 'Animi quam neque officiis corrupti error. Dolorem eius voluptatem ullam nulla esse. Impedit vel consectetur quo nostrum quo nisi.', 5, 0x68, 'fr', 2);
+VALUES(2956978004, 'repudiandae', 'Weissnat-Beahan', 360, 'Animi quam neque officiis corrupti error. Dolorem eius voluptatem ullam nulla esse. Impedit vel consectetur quo nostrum quo nisi.', 5, 'https://img.freepik.com/free-photo/book-composition-with-open-book_23-2147690555.jpg', 'fr', 2);
 INSERT INTO school_lib.book
 (ISBN, title, publisher, num_pages, summary, num_copies, images, `language`, book_status)
-VALUES(2986646716, 'et', 'Waters Inc', 119, 'Sint natus enim natus dolorum. Cumque ea dolor est aliquid aut. Quidem eaque aperiam est voluptatem reprehenderit hic.', 15, 0x68, 'ru', 2);
+VALUES(2986646716, 'et', 'Waters Inc', 119, 'Sint natus enim natus dolorum. Cumque ea dolor est aliquid aut. Quidem eaque aperiam est voluptatem reprehenderit hic.', 15, 'https://img.freepik.com/free-photo/book-composition-with-open-book_23-2147690555.jpg', 'ru', 2);
 INSERT INTO school_lib.book
 (ISBN, title, publisher, num_pages, summary, num_copies, images, `language`, book_status)
-VALUES(2987223833, 'officiis', 'Waelchi-Marvin', 252, 'Laborum id vero molestiae a dolore. At et necessitatibus eum modi ad. In velit veniam cumque occaecati voluptatum totam non distinctio. Dolores optio aliquam debitis est illum molestiae.', 9, 0x68, 'fr', 2);
+VALUES(2987223833, 'officiis', 'Waelchi-Marvin', 252, 'Laborum id vero molestiae a dolore. At et necessitatibus eum modi ad. In velit veniam cumque occaecati voluptatum totam non distinctio. Dolores optio aliquam debitis est illum molestiae.', 9, 'https://img.freepik.com/free-photo/book-composition-with-open-book_23-2147690555.jpg', 'fr', 2);
 INSERT INTO school_lib.book
 (ISBN, title, publisher, num_pages, summary, num_copies, images, `language`, book_status)
-VALUES(3005780964, 'quaerat', 'Becker-Rutherford', 401, 'Et in porro omnis est nisi nulla. Beatae voluptas aut optio voluptatibus eligendi praesentium. Rerum ut autem eos placeat esse et.', 7, 0x68, 'cn', 2);
+VALUES(3005780964, 'quaerat', 'Becker-Rutherford', 401, 'Et in porro omnis est nisi nulla. Beatae voluptas aut optio voluptatibus eligendi praesentium. Rerum ut autem eos placeat esse et.', 7, 'https://img.freepik.com/free-photo/book-composition-with-open-book_23-2147690555.jpg', 'cn', 2);
 INSERT INTO school_lib.book
 (ISBN, title, publisher, num_pages, summary, num_copies, images, `language`, book_status)
-VALUES(3045396509, 'ipsum', 'Adams-Ryan', 138, 'Aut quam incidunt odit unde doloribus adipisci. Non fuga et officia perspiciatis vero. Autem dolorem minima natus voluptatem beatae est et perferendis. Et ratione illum sapiente et.', 15, 0x68, 'en', 2);
+VALUES(3045396509, 'ipsum', 'Adams-Ryan', 138, 'Aut quam incidunt odit unde doloribus adipisci. Non fuga et officia perspiciatis vero. Autem dolorem minima natus voluptatem beatae est et perferendis. Et ratione illum sapiente et.', 15, 'https://img.freepik.com/free-photo/book-composition-with-open-book_23-2147690555.jpg', 'en', 2);
 INSERT INTO school_lib.book
 (ISBN, title, publisher, num_pages, summary, num_copies, images, `language`, book_status)
-VALUES(3046490378, 'nobis', 'Senger, Heller and Green', 272, 'Et ullam facilis facere. Ut inventore quisquam hic ea ut sint. Distinctio consequuntur impedit delectus sit in dolorum distinctio aperiam.', 6, 0x68, 'it', 2);
+VALUES(3046490378, 'nobis', 'Senger, Heller and Green', 272, 'Et ullam facilis facere. Ut inventore quisquam hic ea ut sint. Distinctio consequuntur impedit delectus sit in dolorum distinctio aperiam.', 6, 'https://img.freepik.com/free-photo/book-composition-with-open-book_23-2147690555.jpg', 'it', 2);
 INSERT INTO school_lib.book
 (ISBN, title, publisher, num_pages, summary, num_copies, images, `language`, book_status)
-VALUES(3061345754, 'neque', 'Windler and Sons', 261, 'Blanditiis eaque eum voluptates molestiae accusamus. Sit repellat ratione sed sequi velit aut quis. Ut molestiae molestiae culpa praesentium. Occaecati aut soluta culpa omnis occaecati est.', 14, 0x68, 'de', 2);
+VALUES(3061345754, 'neque', 'Windler and Sons', 261, 'Blanditiis eaque eum voluptates molestiae accusamus. Sit repellat ratione sed sequi velit aut quis. Ut molestiae molestiae culpa praesentium. Occaecati aut soluta culpa omnis occaecati est.', 14, 'https://img.freepik.com/free-photo/book-composition-with-open-book_23-2147690555.jpg', 'de', 2);
 INSERT INTO school_lib.book
 (ISBN, title, publisher, num_pages, summary, num_copies, images, `language`, book_status)
-VALUES(3114297905, 'a', 'Ernser, Cartwright and Wiza', 347, 'Fuga qui rerum odio ut recusandae numquam. Deserunt nostrum id libero cumque in quasi eos. Et eos ducimus qui dolorem ea aut. Officia eaque animi laborum qui id.', 8, 0x68, 'en', 2);
+VALUES(3114297905, 'a', 'Ernser, Cartwright and Wiza', 347, 'Fuga qui rerum odio ut recusandae numquam. Deserunt nostrum id libero cumque in quasi eos. Et eos ducimus qui dolorem ea aut. Officia eaque animi laborum qui id.', 8, 'https://img.freepik.com/free-photo/book-composition-with-open-book_23-2147690555.jpg', 'en', 2);
 INSERT INTO school_lib.book
 (ISBN, title, publisher, num_pages, summary, num_copies, images, `language`, book_status)
-VALUES(3154062454, 'laudantium', 'Rowe, Kertzmann and Davis', 327, 'Quisquam ut earum consequatur est dolorem qui. Ut nihil et qui dolorem quisquam. Nostrum voluptas dolorem et quis deleniti ut.', 15, 0x68, 'it', 2);
+VALUES(3154062454, 'laudantium', 'Rowe, Kertzmann and Davis', 327, 'Quisquam ut earum consequatur est dolorem qui. Ut nihil et qui dolorem quisquam. Nostrum voluptas dolorem et quis deleniti ut.', 15, 'https://img.freepik.com/free-photo/book-composition-with-open-book_23-2147690555.jpg', 'it', 2);
 INSERT INTO school_lib.book
 (ISBN, title, publisher, num_pages, summary, num_copies, images, `language`, book_status)
-VALUES(3167692277, 'consectetur', 'Schulist, Lynch and Jacobson', 215, 'Odio incidunt modi laboriosam at occaecati tempora asperiores. Repudiandae et itaque illum delectus non officiis aperiam. Illum ad minima et sit quia dignissimos illum.', 15, 0x68, 'en', 2);
+VALUES(3167692277, 'consectetur', 'Schulist, Lynch and Jacobson', 215, 'Odio incidunt modi laboriosam at occaecati tempora asperiores. Repudiandae et itaque illum delectus non officiis aperiam. Illum ad minima et sit quia dignissimos illum.', 15, 'https://img.freepik.com/free-photo/book-composition-with-open-book_23-2147690555.jpg', 'en', 2);
 INSERT INTO school_lib.book
 (ISBN, title, publisher, num_pages, summary, num_copies, images, `language`, book_status)
-VALUES(3210839127, 'molestiae', 'Price-Nitzsche', 205, 'Similique deserunt debitis odit quo reprehenderit eos tempore. Rem similique explicabo aut excepturi. Odit explicabo ea vel.', 11, 0x68, 'fr', 2);
+VALUES(3210839127, 'molestiae', 'Price-Nitzsche', 205, 'Similique deserunt debitis odit quo reprehenderit eos tempore. Rem similique explicabo aut excepturi. Odit explicabo ea vel.', 11, 'https://img.freepik.com/free-photo/book-composition-with-open-book_23-2147690555.jpg', 'fr', 2);
 INSERT INTO school_lib.book
 (ISBN, title, publisher, num_pages, summary, num_copies, images, `language`, book_status)
-VALUES(3318889281, 'qui', 'Funk, Gibson and Walter', 271, 'Cumque ducimus voluptas quisquam blanditiis qui ullam iste minima. Facere occaecati magni ut ex. Soluta reprehenderit qui et sint. Maiores accusantium ut odit fugit ratione debitis ea.', 6, 0x68, 'ru', 2);
+VALUES(3318889281, 'qui', 'Funk, Gibson and Walter', 271, 'Cumque ducimus voluptas quisquam blanditiis qui ullam iste minima. Facere occaecati magni ut ex. Soluta reprehenderit qui et sint. Maiores accusantium ut odit fugit ratione debitis ea.', 6, 'https://img.freepik.com/free-photo/book-composition-with-open-book_23-2147690555.jpg', 'ru', 2);
 INSERT INTO school_lib.book
 (ISBN, title, publisher, num_pages, summary, num_copies, images, `language`, book_status)
-VALUES(3382621102, 'quo', 'Zboncak and Sons', 101, 'Et aut architecto molestias distinctio earum. Maxime deleniti quidem magnam sed.', 8, 0x68, 'cn', 2);
+VALUES(3382621102, 'quo', 'Zboncak and Sons', 101, 'Et aut architecto molestias distinctio earum. Maxime deleniti quidem magnam sed.', 8, 'https://img.freepik.com/free-photo/book-composition-with-open-book_23-2147690555.jpg', 'cn', 2);
 INSERT INTO school_lib.book
 (ISBN, title, publisher, num_pages, summary, num_copies, images, `language`, book_status)
-VALUES(3401655907, 'quo', 'Tremblay, Moen and O''Conner', 174, 'Aperiam veniam eum nihil qui. Est exercitationem ex dolore voluptate aut consectetur labore. Eius temporibus excepturi et suscipit consectetur harum. Beatae veritatis autem earum dicta.', 6, 0x68, 'ru', 2);
+VALUES(3401655907, 'quo', 'Tremblay, Moen and O''Conner', 174, 'Aperiam veniam eum nihil qui. Est exercitationem ex dolore voluptate aut consectetur labore. Eius temporibus excepturi et suscipit consectetur harum. Beatae veritatis autem earum dicta.', 6, 'https://img.freepik.com/free-photo/book-composition-with-open-book_23-2147690555.jpg', 'ru', 2);
 INSERT INTO school_lib.book
 (ISBN, title, publisher, num_pages, summary, num_copies, images, `language`, book_status)
-VALUES(3404826024, 'tenetur', 'Metz Inc', 369, 'Sit voluptas ut ex ad quo veniam error. Deleniti non deleniti voluptates harum repellendus hic. Modi consequuntur architecto eos laboriosam. Rerum dolorem quasi ut sed dolores saepe omnis quia. Commodi possimus qui mollitia qui.', 8, 0x68, 'cn', 2);
+VALUES(3404826024, 'tenetur', 'Metz Inc', 369, 'Sit voluptas ut ex ad quo veniam error. Deleniti non deleniti voluptates harum repellendus hic. Modi consequuntur architecto eos laboriosam. Rerum dolorem quasi ut sed dolores saepe omnis quia. Commodi possimus qui mollitia qui.', 8, 'https://img.freepik.com/free-photo/book-composition-with-open-book_23-2147690555.jpg', 'cn', 2);
 INSERT INTO school_lib.book
 (ISBN, title, publisher, num_pages, summary, num_copies, images, `language`, book_status)
-VALUES(3424917105, 'quos', 'Kunze LLC', 103, 'Non rerum vel quod velit officiis aliquam. Qui sequi expedita sint est quos voluptates et. Qui impedit fugit voluptate assumenda.', 11, 0x68, 'fr', 2);
+VALUES(3424917105, 'quos', 'Kunze LLC', 103, 'Non rerum vel quod velit officiis aliquam. Qui sequi expedita sint est quos voluptates et. Qui impedit fugit voluptate assumenda.', 11, 'https://img.freepik.com/free-photo/book-composition-with-open-book_23-2147690555.jpg', 'fr', 2);
 INSERT INTO school_lib.book
 (ISBN, title, publisher, num_pages, summary, num_copies, images, `language`, book_status)
-VALUES(3509802907, 'molestiae', 'Legros-Gislason', 414, 'Facere sint eaque dolor voluptatem. Alias nulla aut nulla ut. Aperiam minima quis minima voluptatem sed nihil neque ea. Eum numquam quia qui odio placeat veritatis.', 9, 0x68, 'en', 2);
+VALUES(3509802907, 'molestiae', 'Legros-Gislason', 414, 'Facere sint eaque dolor voluptatem. Alias nulla aut nulla ut. Aperiam minima quis minima voluptatem sed nihil neque ea. Eum numquam quia qui odio placeat veritatis.', 9, 'https://img.freepik.com/free-photo/book-composition-with-open-book_23-2147690555.jpg', 'en', 2);
 INSERT INTO school_lib.book
 (ISBN, title, publisher, num_pages, summary, num_copies, images, `language`, book_status)
-VALUES(3564339946, 'nisi', 'Yundt, Hoeger and Bruen', 105, 'Dolore fugiat id officia quis quasi et. Quia veritatis voluptate mollitia aut veniam ea. Voluptas voluptatem amet quis laudantium dolorem.', 10, 0x68, 'ru', 2);
+VALUES(3564339946, 'nisi', 'Yundt, Hoeger and Bruen', 105, 'Dolore fugiat id officia quis quasi et. Quia veritatis voluptate mollitia aut veniam ea. Voluptas voluptatem amet quis laudantium dolorem.', 10, 'https://img.freepik.com/free-photo/book-composition-with-open-book_23-2147690555.jpg', 'ru', 2);
 INSERT INTO school_lib.book
 (ISBN, title, publisher, num_pages, summary, num_copies, images, `language`, book_status)
-VALUES(3567504627, 'omnis', 'Erdman, Zieme and Dietrich', 381, 'Alias illo quis architecto sunt et. Pariatur saepe quaerat accusamus dolorum voluptates aliquam neque ut. Labore laudantium laborum odio adipisci necessitatibus. Omnis et nulla rerum voluptas consectetur.', 9, 0x68, 'pt', 2);
+VALUES(3567504627, 'omnis', 'Erdman, Zieme and Dietrich', 381, 'Alias illo quis architecto sunt et. Pariatur saepe quaerat accusamus dolorum voluptates aliquam neque ut. Labore laudantium laborum odio adipisci necessitatibus. Omnis et nulla rerum voluptas consectetur.', 9, 'https://img.freepik.com/free-photo/book-composition-with-open-book_23-2147690555.jpg', 'pt', 2);
 INSERT INTO school_lib.book
 (ISBN, title, publisher, num_pages, summary, num_copies, images, `language`, book_status)
-VALUES(3595302830, 'eligendi', 'Macejkovic Inc', 469, 'Quia perspiciatis odio sed fuga. Qui illo est quisquam earum reiciendis maxime alias. Ipsa ut earum tenetur et odio quia doloremque.', 13, 0x68, 'es', 2);
+VALUES(3595302830, 'eligendi', 'Macejkovic Inc', 469, 'Quia perspiciatis odio sed fuga. Qui illo est quisquam earum reiciendis maxime alias. Ipsa ut earum tenetur et odio quia doloremque.', 13, 'https://img.freepik.com/free-photo/book-composition-with-open-book_23-2147690555.jpg', 'es', 2);
 INSERT INTO school_lib.book
 (ISBN, title, publisher, num_pages, summary, num_copies, images, `language`, book_status)
-VALUES(3623405466, 'iure', 'Monahan-Shanahan', 378, 'Est quia qui velit ipsum. Aspernatur quibusdam ea exercitationem ea exercitationem error. Dolore ipsum non nesciunt voluptatum earum officia.', 12, 0x68, 'en', 2);
+VALUES(3623405466, 'iure', 'Monahan-Shanahan', 378, 'Est quia qui velit ipsum. Aspernatur quibusdam ea exercitationem ea exercitationem error. Dolore ipsum non nesciunt voluptatum earum officia.', 12, 'https://img.freepik.com/free-photo/book-composition-with-open-book_23-2147690555.jpg', 'en', 2);
 INSERT INTO school_lib.book
 (ISBN, title, publisher, num_pages, summary, num_copies, images, `language`, book_status)
-VALUES(3630241589, 'quia', 'DuBuque, Schaden and O''Kon', 488, 'Ullam officia totam nesciunt iusto ut. Rerum accusamus iste corrupti quae enim. Voluptate pariatur dignissimos et voluptas voluptas dolores. Quia nihil explicabo iure quibusdam accusantium.', 10, 0x68, 'ru', 2);
+VALUES(3630241589, 'quia', 'DuBuque, Schaden and O''Kon', 488, 'Ullam officia totam nesciunt iusto ut. Rerum accusamus iste corrupti quae enim. Voluptate pariatur dignissimos et voluptas voluptas dolores. Quia nihil explicabo iure quibusdam accusantium.', 10, 'https://img.freepik.com/free-photo/book-composition-with-open-book_23-2147690555.jpg', 'ru', 2);
 INSERT INTO school_lib.book
 (ISBN, title, publisher, num_pages, summary, num_copies, images, `language`, book_status)
-VALUES(3703629765, 'quia', 'Lockman, Krajcik and Sawayn', 476, 'Quos praesentium numquam quod nostrum. Neque unde dolorem minima quasi. Illo beatae saepe quia ullam adipisci. Libero amet et natus accusamus laudantium.', 5, 0x68, 'pt', 2);
+VALUES(3703629765, 'quia', 'Lockman, Krajcik and Sawayn', 476, 'Quos praesentium numquam quod nostrum. Neque unde dolorem minima quasi. Illo beatae saepe quia ullam adipisci. Libero amet et natus accusamus laudantium.', 5, 'https://img.freepik.com/free-photo/book-composition-with-open-book_23-2147690555.jpg', 'pt', 2);
 INSERT INTO school_lib.book
 (ISBN, title, publisher, num_pages, summary, num_copies, images, `language`, book_status)
-VALUES(3709974127, 'et', 'Pacocha, Kreiger and Stroman', 104, 'Voluptatibus odit aliquid sit explicabo cumque distinctio suscipit. Hic aut ea et mollitia reiciendis repellendus. Delectus quidem consectetur consequatur ut quis. Ad excepturi in esse quo ipsa.', 15, 0x68, 'pt', 2);
+VALUES(3709974127, 'et', 'Pacocha, Kreiger and Stroman', 104, 'Voluptatibus odit aliquid sit explicabo cumque distinctio suscipit. Hic aut ea et mollitia reiciendis repellendus. Delectus quidem consectetur consequatur ut quis. Ad excepturi in esse quo ipsa.', 15, 'https://img.freepik.com/free-photo/book-composition-with-open-book_23-2147690555.jpg', 'pt', 2);
 INSERT INTO school_lib.book
 (ISBN, title, publisher, num_pages, summary, num_copies, images, `language`, book_status)
-VALUES(3749700837, 'aut', 'Klein LLC', 338, 'Architecto similique atque aliquid qui voluptatum atque. Facilis earum perferendis incidunt eos quaerat repellendus. Et consequatur eos id dolorum.', 8, 0x68, 'it', 2);
+VALUES(3749700837, 'aut', 'Klein LLC', 338, 'Architecto similique atque aliquid qui voluptatum atque. Facilis earum perferendis incidunt eos quaerat repellendus. Et consequatur eos id dolorum.', 8, 'https://img.freepik.com/free-photo/book-composition-with-open-book_23-2147690555.jpg', 'it', 2);
 INSERT INTO school_lib.book
 (ISBN, title, publisher, num_pages, summary, num_copies, images, `language`, book_status)
-VALUES(3772760191, 'aut', 'Upton LLC', 454, 'Ullam asperiores rerum voluptatem velit nulla eos. Rerum minima at sapiente voluptate omnis. Qui porro a libero necessitatibus perspiciatis qui ullam. Aut consequatur autem voluptas optio in iure ipsa.', 10, 0x68, 'de', 2);
+VALUES(3772760191, 'aut', 'Upton LLC', 454, 'Ullam asperiores rerum voluptatem velit nulla eos. Rerum minima at sapiente voluptate omnis. Qui porro a libero necessitatibus perspiciatis qui ullam. Aut consequatur autem voluptas optio in iure ipsa.', 10, 'https://img.freepik.com/free-photo/book-composition-with-open-book_23-2147690555.jpg', 'de', 2);
 INSERT INTO school_lib.book
 (ISBN, title, publisher, num_pages, summary, num_copies, images, `language`, book_status)
-VALUES(3826918663, 'nisi', 'Bernhard Ltd', 282, 'Laborum quis harum omnis dolores illum est sit. Illum ea libero ut est ab voluptatum. Minima suscipit est vel et ea dignissimos iste. Voluptas dignissimos repudiandae aut neque. Assumenda in facilis sint et unde.', 12, 0x68, 'it', 2);
+VALUES(3826918663, 'nisi', 'Bernhard Ltd', 282, 'Laborum quis harum omnis dolores illum est sit. Illum ea libero ut est ab voluptatum. Minima suscipit est vel et ea dignissimos iste. Voluptas dignissimos repudiandae aut neque. Assumenda in facilis sint et unde.', 12, 'https://img.freepik.com/free-photo/book-composition-with-open-book_23-2147690555.jpg', 'it', 2);
 INSERT INTO school_lib.book
 (ISBN, title, publisher, num_pages, summary, num_copies, images, `language`, book_status)
-VALUES(3918896331, 'sint', 'Bauch Ltd', 383, 'Voluptas commodi illum optio et dolorum ut quas veniam. Sint voluptatem dolorem optio dolorum. Aut accusamus ea tempore perferendis deleniti. Cum perferendis et voluptas laborum quasi dolor ipsum.', 11, 0x68, 'de', 2);
+VALUES(3918896331, 'sint', 'Bauch Ltd', 383, 'Voluptas commodi illum optio et dolorum ut quas veniam. Sint voluptatem dolorem optio dolorum. Aut accusamus ea tempore perferendis deleniti. Cum perferendis et voluptas laborum quasi dolor ipsum.', 11, 'https://img.freepik.com/free-photo/book-composition-with-open-book_23-2147690555.jpg', 'de', 2);
 INSERT INTO school_lib.book
 (ISBN, title, publisher, num_pages, summary, num_copies, images, `language`, book_status)
-VALUES(3972174623, 'non', 'Robel-Jacobs', 474, 'Eum ut nobis corporis qui voluptas consequatur molestiae eaque. Corporis quibusdam omnis deserunt repudiandae velit enim. Iusto id consequatur eos est.', 9, 0x68, 'de', 2);
+VALUES(3972174623, 'non', 'Robel-Jacobs', 474, 'Eum ut nobis corporis qui voluptas consequatur molestiae eaque. Corporis quibusdam omnis deserunt repudiandae velit enim. Iusto id consequatur eos est.', 9, 'https://img.freepik.com/free-photo/book-composition-with-open-book_23-2147690555.jpg', 'de', 2);
 INSERT INTO school_lib.book
 (ISBN, title, publisher, num_pages, summary, num_copies, images, `language`, book_status)
-VALUES(3972483310, 'dolor', 'Kohler Ltd', 242, 'Autem non voluptatem error ab esse culpa. Earum praesentium sit totam magni et. Provident recusandae maiores id unde est autem aut.', 13, 0x68, 'de', 2);
+VALUES(3972483310, 'dolor', 'Kohler Ltd', 242, 'Autem non voluptatem error ab esse culpa. Earum praesentium sit totam magni et. Provident recusandae maiores id unde est autem aut.', 13, 'https://img.freepik.com/free-photo/book-composition-with-open-book_23-2147690555.jpg', 'de', 2);
 INSERT INTO school_lib.book
 (ISBN, title, publisher, num_pages, summary, num_copies, images, `language`, book_status)
-VALUES(3980133275, 'voluptates', 'Schmeler-Dickinson', 394, 'Quasi omnis dignissimos ipsum fugit facilis. Reprehenderit doloremque rerum unde doloremque reiciendis. Molestiae totam aut illo qui ratione et dolorem.', 8, 0x68, 'en', 2);
+VALUES(3980133275, 'voluptates', 'Schmeler-Dickinson', 394, 'Quasi omnis dignissimos ipsum fugit facilis. Reprehenderit doloremque rerum unde doloremque reiciendis. Molestiae totam aut illo qui ratione et dolorem.', 8, 'https://img.freepik.com/free-photo/book-composition-with-open-book_23-2147690555.jpg', 'en', 2);
 INSERT INTO school_lib.book
 (ISBN, title, publisher, num_pages, summary, num_copies, images, `language`, book_status)
-VALUES(4075108600, 'dolorem', 'Trantow Ltd', 209, 'Tempore est et minus rerum ab dolorem. Et eum explicabo voluptatibus illum. Est non id et itaque perferendis.', 15, 0x68, 'it', 2);
+VALUES(4075108600, 'dolorem', 'Trantow Ltd', 209, 'Tempore est et minus rerum ab dolorem. Et eum explicabo voluptatibus illum. Est non id et itaque perferendis.', 15, 'https://img.freepik.com/free-photo/book-composition-with-open-book_23-2147690555.jpg', 'it', 2);
 INSERT INTO school_lib.book
 (ISBN, title, publisher, num_pages, summary, num_copies, images, `language`, book_status)
-VALUES(4076353662, 'omnis', 'Moore, Mitchell and Mohr', 348, 'Officia cum saepe optio modi eos magnam. Aspernatur est explicabo omnis enim cumque non. Exercitationem delectus culpa optio et accusamus et. Consequatur reprehenderit sint atque doloribus mollitia sed.', 11, 0x68, 'cn', 2);
+VALUES(4076353662, 'omnis', 'Moore, Mitchell and Mohr', 348, 'Officia cum saepe optio modi eos magnam. Aspernatur est explicabo omnis enim cumque non. Exercitationem delectus culpa optio et accusamus et. Consequatur reprehenderit sint atque doloribus mollitia sed.', 11, 'https://img.freepik.com/free-photo/book-composition-with-open-book_23-2147690555.jpg', 'cn', 2);
 INSERT INTO school_lib.book
 (ISBN, title, publisher, num_pages, summary, num_copies, images, `language`, book_status)
-VALUES(4099084694, 'tenetur', 'Vandervort-Metz', 466, 'Non accusamus rerum totam sunt autem quasi ratione. Mollitia soluta omnis sequi et. Animi aut dicta aspernatur porro qui qui officiis. Enim aspernatur maxime animi quisquam itaque exercitationem.', 14, 0x68, 'fr', 2);
+VALUES(4099084694, 'tenetur', 'Vandervort-Metz', 466, 'Non accusamus rerum totam sunt autem quasi ratione. Mollitia soluta omnis sequi et. Animi aut dicta aspernatur porro qui qui officiis. Enim aspernatur maxime animi quisquam itaque exercitationem.', 14, 'https://img.freepik.com/free-photo/book-composition-with-open-book_23-2147690555.jpg', 'fr', 2);
 INSERT INTO school_lib.book
 (ISBN, title, publisher, num_pages, summary, num_copies, images, `language`, book_status)
-VALUES(4114515367, 'at', 'Borer LLC', 447, 'Numquam maiores necessitatibus quas voluptatem officia. Consequuntur voluptates iste facilis voluptate. Et voluptatem quos voluptate eum et dolore voluptas. Placeat reprehenderit quis dignissimos dolor omnis placeat.', 8, 0x68, 'cn', 2);
+VALUES(4114515367, 'at', 'Borer LLC', 447, 'Numquam maiores necessitatibus quas voluptatem officia. Consequuntur voluptates iste facilis voluptate. Et voluptatem quos voluptate eum et dolore voluptas. Placeat reprehenderit quis dignissimos dolor omnis placeat.', 8, 'https://img.freepik.com/free-photo/book-composition-with-open-book_23-2147690555.jpg', 'cn', 2);
 INSERT INTO school_lib.book
 (ISBN, title, publisher, num_pages, summary, num_copies, images, `language`, book_status)
-VALUES(4118466201, 'ipsam', 'Feest LLC', 166, 'In assumenda exercitationem id aut magnam in. Quas qui dolores a consequatur quod. Est aliquid illum pariatur tempora. Et saepe eius illum ex vel rerum.', 10, 0x68, 'es', 2);
+VALUES(4118466201, 'ipsam', 'Feest LLC', 166, 'In assumenda exercitationem id aut magnam in. Quas qui dolores a consequatur quod. Est aliquid illum pariatur tempora. Et saepe eius illum ex vel rerum.', 10, 'https://img.freepik.com/free-photo/book-composition-with-open-book_23-2147690555.jpg', 'es', 2);
 INSERT INTO school_lib.book
 (ISBN, title, publisher, num_pages, summary, num_copies, images, `language`, book_status)
-VALUES(4140524445, 'rerum', 'DuBuque, Feil and Yundt', 466, 'Officia dolor laudantium autem et. Rerum qui qui voluptas eius perferendis rerum nostrum et.', 5, 0x68, 'pt', 2);
+VALUES(4140524445, 'rerum', 'DuBuque, Feil and Yundt', 466, 'Officia dolor laudantium autem et. Rerum qui qui voluptas eius perferendis rerum nostrum et.', 5, 'https://img.freepik.com/free-photo/book-composition-with-open-book_23-2147690555.jpg', 'pt', 2);
 INSERT INTO school_lib.book
 (ISBN, title, publisher, num_pages, summary, num_copies, images, `language`, book_status)
-VALUES(4172576783, 'molestiae', 'Kihn, Mayer and Ledner', 433, 'Veniam nostrum ipsam veniam libero rem et voluptatem quas. Sed consectetur sed molestias neque possimus sit. Ratione itaque quo qui est error dolor.', 11, 0x68, 'pt', 2);
+VALUES(4172576783, 'molestiae', 'Kihn, Mayer and Ledner', 433, 'Veniam nostrum ipsam veniam libero rem et voluptatem quas. Sed consectetur sed molestias neque possimus sit. Ratione itaque quo qui est error dolor.', 11, 'https://img.freepik.com/free-photo/book-composition-with-open-book_23-2147690555.jpg', 'pt', 2);
 INSERT INTO school_lib.book
 (ISBN, title, publisher, num_pages, summary, num_copies, images, `language`, book_status)
-VALUES(4225334484, 'corporis', 'Lang PLC', 251, 'Eum facere est quos omnis voluptatibus nulla commodi. Deleniti harum ea non sit. Quod sunt velit ipsam temporibus mollitia dolore nihil.', 12, 0x68, 'es', 2);
+VALUES(4225334484, 'corporis', 'Lang PLC', 251, 'Eum facere est quos omnis voluptatibus nulla commodi. Deleniti harum ea non sit. Quod sunt velit ipsam temporibus mollitia dolore nihil.', 12, 'https://img.freepik.com/free-photo/book-composition-with-open-book_23-2147690555.jpg', 'es', 2);
 INSERT INTO school_lib.book
 (ISBN, title, publisher, num_pages, summary, num_copies, images, `language`, book_status)
-VALUES(4234053780, 'et', 'Schuppe-Hahn', 469, 'Qui assumenda nostrum rerum ut quia ab quis voluptatem. Perferendis vero animi labore placeat officia. Id doloremque saepe repellendus pariatur quae reiciendis.', 6, 0x68, 'es', 2);
+VALUES(4234053780, 'et', 'Schuppe-Hahn', 469, 'Qui assumenda nostrum rerum ut quia ab quis voluptatem. Perferendis vero animi labore placeat officia. Id doloremque saepe repellendus pariatur quae reiciendis.', 6, 'https://img.freepik.com/free-photo/book-composition-with-open-book_23-2147690555.jpg', 'es', 2);
 INSERT INTO school_lib.book
 (ISBN, title, publisher, num_pages, summary, num_copies, images, `language`, book_status)
-VALUES(4255233380, 'et', 'Botsford, Mraz and Klein', 291, 'Harum quia quidem est cumque dolorum earum. Totam sapiente qui illo qui consequatur exercitationem. Porro ea est fugit sunt corrupti.', 11, 0x68, 'cn', 2);
+VALUES(4255233380, 'et', 'Botsford, Mraz and Klein', 291, 'Harum quia quidem est cumque dolorum earum. Totam sapiente qui illo qui consequatur exercitationem. Porro ea est fugit sunt corrupti.', 11, 'https://img.freepik.com/free-photo/book-composition-with-open-book_23-2147690555.jpg', 'cn', 2);
 INSERT INTO school_lib.book
 (ISBN, title, publisher, num_pages, summary, num_copies, images, `language`, book_status)
-VALUES(4283105764, 'quia', 'Gulgowski Group', 366, 'Quo consectetur possimus consequuntur non ut vitae voluptatibus mollitia. Optio doloribus ullam expedita rem et in officiis tenetur. Distinctio aut reiciendis placeat dolorem necessitatibus quisquam.', 11, 0x68, 'es', 2);
+VALUES(4283105764, 'quia', 'Gulgowski Group', 366, 'Quo consectetur possimus consequuntur non ut vitae voluptatibus mollitia. Optio doloribus ullam expedita rem et in officiis tenetur. Distinctio aut reiciendis placeat dolorem necessitatibus quisquam.', 11, 'https://img.freepik.com/free-photo/book-composition-with-open-book_23-2147690555.jpg', 'es', 2);
 INSERT INTO school_lib.book
 (ISBN, title, publisher, num_pages, summary, num_copies, images, `language`, book_status)
-VALUES(4294967295, 'fuga', 'Haley LLC', 282, 'Illum id accusantium tempora. Quia pariatur nesciunt doloremque enim quasi numquam tempore sit. Esse qui quis eos dicta natus dolorem.', 7, 0x68, 'de', 2);
-
+VALUES(4294967295, 'fuga', 'Haley LLC', 282, 'Illum id accusantium tempora. Quia pariatur nesciunt doloremque enim quasi numquam tempore sit. Esse qui quis eos dicta natus dolorem.', 7, 'https://img.freepik.com/free-photo/book-composition-with-open-book_23-2147690555.jpg', 'de', 2);
 
 -- 3)TABLE:book_author
 
