@@ -22,7 +22,7 @@
 <body>
 
     <h1>Transaction Results</h1>
-
+    <button onclick="goToHomePage()">Home Page</button>
     <!-- Add an overlay div to display the GIF -->
     <div id="overlay" class="overlay">
         <img src="https://i.gifer.com/fy3E.gif" alt="Loading...">
@@ -102,6 +102,9 @@
 
         function hideOverlay() {
             overlay.style.display = 'none';
+        }
+        function goToHomePage() {
+          window.location.href = "http://127.0.0.1:5000/home";
         }
     </script>
 </body>

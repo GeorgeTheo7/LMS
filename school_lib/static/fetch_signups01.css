@@ -12,15 +12,7 @@ body {
     color: #333;
   }
   
-  /* Button styles */
-  button {
-    background-color: #4CAF50;
-    color: #fff;
-    border: none;
-    padding: 10px 20px;
-    margin-bottom: 10px;
-    cursor: pointer;
-  }
+ 
   
   /* Table styles */
   table {

@@ -28,6 +28,7 @@
             <th>First Name</th>
             <th>Last Name</th>
             <th>Delayed Days</th>
+            <th>ISBN</th>
         </tr>
         {% for result in results %}
         <tr>
@@ -36,6 +37,7 @@
             <td>{{ result[2] }}</td>
             <td>{{ result[3] }}</td>
             <td>{{ result[4] }}</td>
+            <td>{{ result[5] }}</td>
         </tr>
         {% endfor %}
     </table>

@@ -2,7 +2,7 @@ import mysql.connector, datetime
 from flask import Flask, render_template, request, jsonify, redirect, url_for, Response, session
 from itertools import count
 from datetime import timedelta
-from school_lib import app,connection
+from school_lib import app, connection
 
 
 # Function to authenticate user
@@ -12,7 +12,7 @@ def authenticate_user(username, password):
         cursor = connection.cursor()
 
         # Query to check if username and password match
-        query = "SELECT COUNT(*), user_type, user_id, school_id FROM `user` WHERE username = %s AND password = %s AND user_status = 1"
+        query = "SELECT COUNT(*), user_type, user_id, school_id FROM user WHERE username = %s AND password = %s AND user_status = 1"
         cursor.execute(query, (username, password))
 
         # Fetch the result
@@ -121,7 +121,7 @@ def fetch_category_books():
             SELECT GROUP_CONCAT(DISTINCT CONCAT(u.first_name, ' ', u.last_name) SEPARATOR ',')
             FROM book b
             JOIN transaction t ON b.ISBN = t.ISBN
-            JOIN `user` u ON t.user_id = u.user_id
+            JOIN user u ON t.user_id = u.user_id
             JOIN book_category bc ON b.ISBN = bc.ISBN
             WHERE bc.category_id = c.category_id
             AND u.user_type = 1
@@ -217,8 +217,8 @@ def fetch_zero_borrow_authors():
         query = """
             SELECT a.author_id, a.author_name
             FROM author a
-            LEFT JOIN book_author ba ON a.author_id = ba.author_id
-            LEFT JOIN book b ON ba.ISBN = b.ISBN
+            JOIN book_author ba ON a.author_id = ba.author_id
+            JOIN book b ON ba.ISBN = b.ISBN
             LEFT JOIN transaction t ON b.ISBN = t.ISBN
             GROUP BY a.author_id, a.author_name
             HAVING COUNT(t.ISBN) = 0;
@@ -241,31 +241,15 @@ def fetch_operators_same_borrows():
         cursor = connection.cursor()
 
         query = """
-            SELECT DISTINCT subquery.first_name, subquery.last_name, subquery.transaction_count
-            FROM (
-            SELECT s.school_id, s.name, COUNT(t.transaction_id) AS transaction_count, u2.first_name, u2.last_name
-            FROM school s
-            LEFT JOIN `user` u ON s.school_id = u.school_id
-            LEFT JOIN `transaction` t ON u.user_id = t.user_id
-            LEFT JOIN `user` u2 ON s.school_id = u2.school_id AND u2.user_type = '2'
+            SELECT u2.first_name, u2.last_name, COUNT(t.transaction_id) AS transaction_count
+            FROM `user` u
+            JOIN `transaction` t ON u.user_id = t.user_id
+            JOIN `user` u2 ON u.school_id = u2.school_id AND u2.user_type = 2
             WHERE t.transaction_type = 1
-            GROUP BY s.school_id, s.name, u2.first_name, u2.last_name
-            HAVING COUNT(t.transaction_id) > 20
-            ) AS subquery
-            INNER JOIN (
-            SELECT transaction_count
-            FROM (
-            SELECT COUNT(t.transaction_id) AS transaction_count
-            FROM school s
-            LEFT JOIN `user` u ON s.school_id = u.school_id
-            LEFT JOIN `transaction` t ON u.user_id = t.user_id
-            WHERE t.transaction_type = 1
-            AND t.date_of_borrowing >= DATE_SUB(CURDATE(), INTERVAL 1 YEAR) -- interval of 1 year
-            GROUP BY s.school_id, s.name
-            ) AS count_subquery
-            GROUP BY transaction_count
-            HAVING COUNT(transaction_count) > 1 -- more than 1 occurence
-            ) AS count_join ON subquery.transaction_count = count_join.transaction_count;
+            AND t.date_of_borrowing >= DATE_SUB(CURDATE(), INTERVAL 1 YEAR)
+            GROUP BY u2.first_name, u2.last_name
+            HAVING COUNT(t.transaction_id) > 20;
+
         """
 
         cursor.execute(query)
@@ -287,7 +271,7 @@ def fetch_top_category_pairs():
         query = """
             SELECT c1.category_name AS category1, c2.category_name AS category2, COUNT(*) AS borrow_count
             FROM book_category bc1
-            JOIN book_category bc2 ON bc1.ISBN = bc2.ISBN AND bc1.category_id < bc2.category_id
+            JOIN book_category bc2 ON bc1.ISBN = bc2.ISBN AND bc1.category_id < bc2.category_id -- to exclude inversed pairs
             JOIN category c1 ON bc1.category_id = c1.category_id
             JOIN category c2 ON bc2.category_id = c2.category_id
             JOIN transaction t ON t.ISBN = bc1.ISBN
@@ -314,15 +298,15 @@ def fetch_authors_less_5():
         cursor = connection.cursor()
 
         query = """
-            SELECT a.author_id, a.author_name, COUNT(ba.book_author_id) AS num_books
+            SELECT a.author_id, a.author_name, COUNT(ba.author_id) AS num_books
 			FROM author a
 			JOIN book_author ba ON a.author_id = ba.author_id
-			GROUP BY a.author_id, a.author_name
+			GROUP BY a.author_id
 			HAVING num_books <= (
-			SELECT COUNT(book_author_id)
+			SELECT COUNT(author_id)
 			FROM book_author
 			GROUP BY author_id
-			ORDER BY COUNT(book_author_id) DESC
+			ORDER BY COUNT(author_id) DESC
 			LIMIT 1
 			) - 5;
         """
@@ -465,11 +449,10 @@ def fetch_title_author():
         query = """
             SELECT b.ISBN, b.title, GROUP_CONCAT(DISTINCT a.author_name) AS authors, GROUP_CONCAT(DISTINCT c.category_name) AS categories, b.num_copies
             FROM book b
-            LEFT JOIN book_author ba ON b.ISBN = ba.ISBN
-            LEFT JOIN author a ON ba.author_id = a.author_id
-            LEFT JOIN book_category bc ON b.ISBN = bc.ISBN
-            LEFT JOIN category c ON bc.category_id = c.category_id
-            LEFT JOIN `transaction` t ON b.ISBN = t.ISBN
+            JOIN book_author ba ON b.ISBN = ba.ISBN
+            JOIN author a ON ba.author_id = a.author_id
+            JOIN book_category bc ON b.ISBN = bc.ISBN
+            JOIN category c ON bc.category_id = c.category_id
             WHERE b.ISBN IN (
             SELECT ba.ISBN
             FROM book_author ba
@@ -508,7 +491,7 @@ def fetch_title_author():
 @app.route('/book_details', methods=['GET'])
 def book_details():
     try:
-        ISBN = request.args.get('ISBN')  # Retrieve the ISBN of the book
+        isbn = request.args.get('ISBN')  # Retrieve the ISBN of the book
 
         cursor = connection.cursor()
 
@@ -518,7 +501,7 @@ def book_details():
             FROM book b
             WHERE b.ISBN = %s
         """
-        cursor.execute(query, (ISBN,))
+        cursor.execute(query, (isbn,))
         book_details = cursor.fetchone()
         cursor.close()
 
@@ -526,6 +509,7 @@ def book_details():
 
     except Exception as e:
         return f"An error occurred: {str(e)}"
+
 
 @app.route('/edit_book', methods=['GET', 'POST'])
 def edit_book():
@@ -687,27 +671,23 @@ def fetch_delayed_returns():
 
         # Construct the base query
         query = """
-            SELECT 
-            t.`user_id`,
-            u.`username`,
-            u.`first_name`,
-            u.`last_name`,
-            DATEDIFF(CURRENT_TIMESTAMP(), t.`date_of_max_return`) AS delayed_days
-            FROM `transaction` t
-            JOIN `user` u ON t.`user_id` = u.`user_id`
-            WHERE t.`transaction_type` = 1
-            AND t.`transaction_status` = 1
-            AND CURRENT_TIMESTAMP() > t.`date_of_max_return`
+            SELECT t.user_id, u.username, u.first_name, u.last_name, DATEDIFF(CURRENT_TIMESTAMP(), t.date_of_max_return) AS delayed_days, b.ISBN
+            FROM transaction t
+            JOIN book b ON t.ISBN = b.ISBN
+            JOIN user u ON t.user_id = u.user_id
+            WHERE t.transaction_type = 1
+            AND t.transaction_status = 1
+            AND CURRENT_TIMESTAMP() > t.date_of_max_return
   
         """
 
         # Add conditions to the query based on the provided search criteria
         if first_name:
-            query += f" AND u.`first_name` LIKE '%{first_name}%'"
+            query += f" AND u.first_name LIKE '%{first_name}%'"
         if last_name:
-            query += f" AND u.`last_name` LIKE '%{last_name}%'"
+            query += f" AND u.last_name LIKE '%{last_name}%'"
         if delayed_days:
-            query += f" AND DATEDIFF(CURRENT_TIMESTAMP(), t.`date_of_max_return`) >= {delayed_days}"
+            query += f" AND DATEDIFF(CURRENT_TIMESTAMP(), t.date_of_max_return) >= {delayed_days}"
 
         cursor.execute(query)
         results = cursor.fetchall()
@@ -738,9 +718,9 @@ def fetch_average_ratings():
 
         # Add conditions to the query based on the provided search criteria
         if username:
-            query += f" AND u.`username` LIKE '%{username}%'"
+            query += f" AND u.username LIKE '%{username}%'"
         if category:
-            query += f" AND c.`category_name` LIKE '%{category}%'"
+            query += f" AND c.category_name LIKE '%{category}%'"
 
         cursor.execute(query)
         results = cursor.fetchall()
@@ -846,7 +826,7 @@ def profile():
         school_id = request.form.get('school_id')
 
         query = """
-        UPDATE `user`
+        UPDATE user
         SET username = %s, email = %s, age = %s, school_id = %s
         WHERE user_id = %s AND user_type = 1
         """
@@ -855,7 +835,7 @@ def profile():
 
     query = """
     SELECT username, email, age, school_id
-    FROM `user`
+    FROM user
     WHERE user_id = %s AND user_type = 1
     """
     cursor.execute(query, (user_id,))
@@ -877,24 +857,24 @@ def fetch_all_books():
 
         query = """
             SELECT b.ISBN, b.title, GROUP_CONCAT(DISTINCT a.author_name) AS authors, GROUP_CONCAT(DISTINCT c.category_name) AS categories,
-            IF(t.transaction_type = 0, 0, 1) AS transaction_type1,
-            IF(t.transaction_type = 1, 1, 2) AS transaction_type2
+            IF(t.transaction_type = 0, 0, 1) AS reserved,
+            IF(t.transaction_type = 1, 1, 2) AS borrowed
             FROM book b
-            LEFT JOIN book_author ba ON b.ISBN = ba.ISBN
-            LEFT JOIN author a ON ba.author_id = a.author_id
-            LEFT JOIN book_category bc ON b.ISBN = bc.ISBN
-            LEFT JOIN category c ON bc.category_id = c.category_id
-            LEFT JOIN `transaction` t ON b.ISBN = t.ISBN AND t.user_id = %s
+            JOIN book_author ba ON b.ISBN = ba.ISBN
+            JOIN author a ON ba.author_id = a.author_id
+            JOIN book_category bc ON b.ISBN = bc.ISBN
+            JOIN category c ON bc.category_id = c.category_id
+            LEFT JOIN transaction t ON b.ISBN = t.ISBN AND t.user_id = %s
             WHERE b.ISBN IN (
             SELECT ba.ISBN
             FROM book_author ba
-            INNER JOIN author a ON ba.author_id = a.author_id 
+            JOIN author a ON ba.author_id = a.author_id 
             """
 
         if author:
             query += " AND a.author_name LIKE %s"
 
-        query += " ) AND b.ISBN IN (SELECT bc.ISBN FROM book_category bc INNER JOIN category c ON bc.category_id = c.category_id"
+        query += " ) AND b.ISBN IN (SELECT bc.ISBN FROM book_category bc JOIN category c ON bc.category_id = c.category_id"
 
         if category:
             query += " AND c.category_name LIKE %s"
@@ -904,7 +884,7 @@ def fetch_all_books():
         if title:
             query += " AND b.title LIKE %s"
 
-        query += " GROUP BY b.ISBN, b.title"
+        query += " GROUP BY b.ISBN"
 
         if author and category and title:
             cursor.execute(query, (session['user_id'], f"%{author}%", f"%{category}%", f"%{title}%"))
@@ -984,7 +964,7 @@ def create_transaction():
             end_of_week_timestamp = datetime.datetime.combine(end_of_week, datetime.datetime.max.time())
             query = """
                 SELECT COUNT(*)
-                FROM `transaction` 
+                FROM transaction
                 WHERE user_id = %s AND date_of_reservation BETWEEN %s AND %s
             """
             cursor.execute(query, (user_id, start_of_week_timestamp, end_of_week_timestamp))
@@ -1019,7 +999,7 @@ def create_transaction():
                 current_timestamp = datetime.datetime.now().strftime('%Y-%m-%d %H:%M:%S')
 
                 query = """
-                INSERT INTO `transaction` (date_of_max_return, date_of_borrowing, transaction_status, date_of_reservation, transaction_type, date_of_return, ISBN, user_id)
+                INSERT INTO transaction (date_of_max_return, date_of_borrowing, transaction_status, date_of_reservation, transaction_type, date_of_return, ISBN, user_id)
                 VALUES (NULL, NULL, 0, %s, 0, NULL, %s, %s)
                 """
     
@@ -1097,7 +1077,7 @@ def fetch_transactions():
             SELECT date_of_max_return, date_of_borrowing, date_of_return,
             date_of_reservation, ISBN, user_id, transaction_id, transaction_type, transaction_status
             FROM transaction 
-            WHERE `transaction_type` IN (0, 1, 2) 
+            WHERE transaction_type IN (0, 1, 2) 
             """
 
         # Add conditions to the query based on the provided search criteria
