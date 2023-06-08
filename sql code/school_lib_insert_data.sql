@@ -736,13 +736,13 @@ INSERT INTO school_lib.book_author
 VALUES(2474227933, 45, 1);
 INSERT INTO school_lib.book_author
 (ISBN, book_author_id, author_id)
-VALUES(2474784286, 46, 1);
+VALUES(2474784286, 46, 2);
 INSERT INTO school_lib.book_author
 (ISBN, book_author_id, author_id)
 VALUES(2507344536, 47, 1);
 INSERT INTO school_lib.book_author
 (ISBN, book_author_id, author_id)
-VALUES(2507677778, 48, 1);
+VALUES(2507677778, 48, 3);
 INSERT INTO school_lib.book_author
 (ISBN, book_author_id, author_id)
 VALUES(2516010187, 49, 1);
@@ -751,10 +751,10 @@ INSERT INTO school_lib.book_author
 VALUES(2541824557, 50, 1);
 INSERT INTO school_lib.book_author
 (ISBN, book_author_id, author_id)
-VALUES(2584479192, 51, 1);
+VALUES(2584479192, 51, 3);
 INSERT INTO school_lib.book_author
 (ISBN, book_author_id, author_id)
-VALUES(2711594369, 52, 1);
+VALUES(2711594369, 52, 4);
 INSERT INTO school_lib.book_author
 (ISBN, book_author_id, author_id)
 VALUES(2730834547, 53, 1);
@@ -763,13 +763,13 @@ INSERT INTO school_lib.book_author
 VALUES(2784526064, 54, 1);
 INSERT INTO school_lib.book_author
 (ISBN, book_author_id, author_id)
-VALUES(2786846406, 55, 1);
+VALUES(2786846406, 55, 5);
 INSERT INTO school_lib.book_author
 (ISBN, book_author_id, author_id)
 VALUES(2808868455, 56, 1);
 INSERT INTO school_lib.book_author
 (ISBN, book_author_id, author_id)
-VALUES(2874081058, 57, 1);
+VALUES(2874081058, 57, 3);
 INSERT INTO school_lib.book_author
 (ISBN, book_author_id, author_id)
 VALUES(2938674202, 58, 1);
@@ -781,7 +781,7 @@ INSERT INTO school_lib.book_author
 VALUES(2986646716, 60, 1);
 INSERT INTO school_lib.book_author
 (ISBN, book_author_id, author_id)
-VALUES(2987223833, 61, 1);
+VALUES(2987223833, 61, 24);
 INSERT INTO school_lib.book_author
 (ISBN, book_author_id, author_id)
 VALUES(3005780964, 62, 1);
@@ -823,7 +823,7 @@ INSERT INTO school_lib.book_author
 VALUES(3424917105, 74, 1);
 INSERT INTO school_lib.book_author
 (ISBN, book_author_id, author_id)
-VALUES(3509802907, 75, 1);
+VALUES(3509802907, 75, 44);
 INSERT INTO school_lib.book_author
 (ISBN, book_author_id, author_id)
 VALUES(3564339946, 76, 1);
@@ -2582,16 +2582,17 @@ VALUES(3167692277, 200, 200);
 
 INSERT INTO school_lib.school
 (admin_name, operator_name, director_name, phone, email, city, zip_code, name, school_id)
-VALUES('Ioannis Iliadis', 'Panagiotis Belsis', 'Liliane Heller IV', '124-393-6158x34656', 'flossie.carter@example.org', 'Port Winonaland', 40383, 'tempora', 1);
+VALUES('Ioannis Iliadis', 'Panagiotis Belsis', 'Liliane Heller IV', '124-393-6158x34656', 'flossie.carter@example.org', 'Port Winonaland', 40383, '1o GEL Korydallou', 1);
 INSERT INTO school_lib.school
 (admin_name, operator_name, director_name, phone, email, city, zip_code, name, school_id)
-VALUES('Ioannis Iliadis', 'Asimakis Botis', 'Elna Lueilwitz', '+29(6)3552391551', 'balistreri.macey@example.org', 'Kuhlmanshire', 4087, 'optio', 2);
+VALUES('Ioannis Iliadis', 'Asimakis Botis', 'Elna Lueilwitz', '+29(6)3552391551', 'balistreri.macey@example.org', 'Kuhlmanshire', 4087, '2o Gymnasio Drapetsonas', 2);
 INSERT INTO school_lib.school
 (admin_name, operator_name, director_name, phone, email, city, zip_code, name, school_id)
-VALUES('Ioannis Iliadis', 'Andronikos Giannousiadis', 'Jordan Strosin', '1-597-655-1269', 'delia.bergnaum@example.org', 'Port Hudsonhaven', 66154, 'praesentium', 3);
+VALUES('Ioannis Iliadis', 'Andronikos Giannousiadis', 'Jordan Strosin', '1-597-655-1269', 'delia.bergnaum@example.org', 'Port Hudsonhaven', 66154, '1o GEL Nikaias', 3);
 INSERT INTO school_lib.school
 (admin_name, operator_name, director_name, phone, email, city, zip_code, name, school_id)
-VALUES('Ioannis Iliadis', 'Konstantinos Will', 'Lane Crist Sr.', '02918690259', 'unitzsche@example.net', 'Macejkovicmouth', 2703, 'minus', 4);
+VALUES('Ioannis Iliadis', 'Konstantinos Will', 'Lane Crist Sr.', '02918690259', 'unitzsche@example.net', 'Macejkovicmouth', 2703, '2o Gymnasio Pikermiou', 4);
+
 
 
 
@@ -3165,7 +3166,7 @@ INSERT INTO school_lib.`transaction`
 VALUES('1998-05-28 16:24:36', '2023-03-13 04:47:26', 5, 0, '2003-06-24 22:42:57', 1, '2021-12-15 07:51:43', 4225334484, 42);
 INSERT INTO school_lib.`transaction`
 (date_of_max_return, date_of_borrowing, transaction_id, transaction_status, date_of_reservation, transaction_type, date_of_return, ISBN, user_id)
-VALUES('1998-08-29 02:12:22', '2023-05-03 09:40:47', 6, 0, '2023-03-21 02:38:45', 1, '1973-07-18 07:11:12', 2507677778, 48);
+VALUES('1998-08-29 02:12:22', '2023-05-03 09:40:47', 6, 0, '2023-03-21 02:38:45', 2, '1973-07-18 07:11:12', 2507677778, 48);
 INSERT INTO school_lib.`transaction`
 (date_of_max_return, date_of_borrowing, transaction_id, transaction_status, date_of_reservation, transaction_type, date_of_return, ISBN, user_id)
 VALUES('2001-12-22 21:17:50', '2023-05-25 03:28:53', 7, 0, '2023-02-27 14:03:47', 1, '2019-05-01 10:10:05', 2516010187, 6);
@@ -3384,16 +3385,13 @@ INSERT INTO school_lib.`transaction`
 VALUES('2022-10-17 20:40:33', '2023-03-29 03:51:34', 78, 0, '1991-01-22 18:19:14', 1, '1973-07-03 12:41:52', 1734732728, 18);
 INSERT INTO school_lib.`transaction`
 (date_of_max_return, date_of_borrowing, transaction_id, transaction_status, date_of_reservation, transaction_type, date_of_return, ISBN, user_id)
-VALUES('2019-08-08 14:03:37', '2022-12-03 03:02:09', 79, 0, '2008-09-21 03:37:26', 1, '1973-07-17 22:40:18', 2987223833, 6);
-INSERT INTO school_lib.`transaction`
-(date_of_max_return, date_of_borrowing, transaction_id, transaction_status, date_of_reservation, transaction_type, date_of_return, ISBN, user_id)
 VALUES('1993-10-01 19:44:52', '2023-03-20 16:20:58', 80, 0, '1999-02-23 01:46:57', 1, '1975-06-22 22:11:09', 1252364469, 6);
 INSERT INTO school_lib.`transaction`
 (date_of_max_return, date_of_borrowing, transaction_id, transaction_status, date_of_reservation, transaction_type, date_of_return, ISBN, user_id)
 VALUES('2019-05-11 11:22:41', '2022-11-14 12:21:30', 81, 0, '2020-05-14 16:16:24', 0, '1978-11-04 01:49:53', 3772760191, 29);
 INSERT INTO school_lib.`transaction`
 (date_of_max_return, date_of_borrowing, transaction_id, transaction_status, date_of_reservation, transaction_type, date_of_return, ISBN, user_id)
-VALUES('1999-01-30 16:14:12', '2023-04-07 13:48:06', 82, 0, '1973-11-08 05:26:59', 1, '1989-11-16 03:11:42', 1389010684, 48);
+VALUES('1999-01-30 16:14:12', '2023-04-07 13:48:06', 82, 0, '1973-11-08 05:26:59', 2, '1989-11-16 03:11:42', 1389010684, 48);
 INSERT INTO school_lib.`transaction`
 (date_of_max_return, date_of_borrowing, transaction_id, transaction_status, date_of_reservation, transaction_type, date_of_return, ISBN, user_id)
 VALUES('1978-03-06 01:29:30', '2023-02-10 20:44:56', 83, 0, '1994-01-24 01:24:16', 1, '2015-04-28 03:00:25', 2198073157, 38);
@@ -3412,9 +3410,6 @@ VALUES('1978-12-19 09:16:55', '2023-05-12 12:48:42', 87, 0, '2009-03-08 08:20:25
 INSERT INTO school_lib.`transaction`
 (date_of_max_return, date_of_borrowing, transaction_id, transaction_status, date_of_reservation, transaction_type, date_of_return, ISBN, user_id)
 VALUES('1988-12-30 01:09:50', '2022-08-05 04:25:38', 88, 0, '1971-03-14 13:45:59', 1, '2005-12-14 13:52:02', 3623405466, 24);
-INSERT INTO school_lib.`transaction`
-(date_of_max_return, date_of_borrowing, transaction_id, transaction_status, date_of_reservation, transaction_type, date_of_return, ISBN, user_id)
-VALUES('1975-09-02 22:30:35', '2022-07-26 12:59:42', 89, 0, '1997-10-09 04:36:57', 0, '1971-11-28 23:24:34', 3509802907, 20);
 INSERT INTO school_lib.`transaction`
 (date_of_max_return, date_of_borrowing, transaction_id, transaction_status, date_of_reservation, transaction_type, date_of_return, ISBN, user_id)
 VALUES('2010-05-01 15:38:43', '2022-11-30 08:08:43', 90, 0, '1995-02-21 13:24:49', 1, '2021-12-22 06:08:37', 2507344536, 47);
@@ -3441,7 +3436,7 @@ INSERT INTO school_lib.`transaction`
 VALUES('2012-08-03 05:25:36', '2023-01-31 02:45:12', 97, 0, '1979-11-12 07:28:45', 0, '1988-03-27 19:18:01', 1433321773, 11);
 INSERT INTO school_lib.`transaction`
 (date_of_max_return, date_of_borrowing, transaction_id, transaction_status, date_of_reservation, transaction_type, date_of_return, ISBN, user_id)
-VALUES('1987-06-05 09:45:49', '2022-08-10 10:39:19', 98, 0, '1970-07-26 22:29:08', 1, '2002-01-28 03:45:34', 2022488326, 31);
+VALUES('1987-06-05 09:45:49', '2022-08-10 10:39:19', 98, 0, '1970-07-26 22:29:08', 1, '2002-01-28 03:45:34', 2022488326, 32);
 INSERT INTO school_lib.`transaction`
 (date_of_max_return, date_of_borrowing, transaction_id, transaction_status, date_of_reservation, transaction_type, date_of_return, ISBN, user_id)
 VALUES('1976-01-13 21:21:46', '2022-10-06 04:05:33', 99, 0, '2017-10-08 00:10:35', 0, '1982-04-17 17:59:41', 1565072107, 13);
@@ -3477,7 +3472,7 @@ INSERT INTO school_lib.`transaction`
 VALUES('1996-02-23 05:44:50', '2022-12-04 23:39:40', 109, 0, '2017-10-12 00:17:53', 2, '1984-07-18 04:51:39', 1191406002, 4);
 INSERT INTO school_lib.`transaction`
 (date_of_max_return, date_of_borrowing, transaction_id, transaction_status, date_of_reservation, transaction_type, date_of_return, ISBN, user_id)
-VALUES('1979-04-04 16:15:45', '2022-12-02 04:52:31', 110, 0, '1976-06-16 03:10:55', 1, '1999-12-21 13:11:05', 1086847964, 48);
+VALUES('1979-04-04 16:15:45', '2022-12-02 04:52:31', 110, 0, '1976-06-16 03:10:55', 2, '1999-12-21 13:11:05', 1086847964, 48);
 INSERT INTO school_lib.`transaction`
 (date_of_max_return, date_of_borrowing, transaction_id, transaction_status, date_of_reservation, transaction_type, date_of_return, ISBN, user_id)
 VALUES(NULL, '2023-05-30 13:35:03', 130, 0, NULL, 0, NULL, 1252364469, NULL);
@@ -3507,7 +3502,11 @@ INSERT INTO school_lib.`transaction`
 VALUES('2023-06-02 13:35:26', '2023-06-02 13:35:26', 177, 0, '2023-06-02 13:35:26', 1, '2023-06-02 13:35:26', 2004872161, 55);
 INSERT INTO school_lib.`transaction`
 (date_of_max_return, date_of_borrowing, transaction_id, transaction_status, date_of_reservation, transaction_type, date_of_return, ISBN, user_id)
-VALUES(NULL, NULL, 252, 0, '2023-06-03 16:29:28', 0, NULL, 1906007459, 53);
+VALUES(NULL, NULL, 299, 0, '2023-06-07 15:54:58', 1, NULL, 1071953916, 48);
+INSERT INTO school_lib.`transaction`
+(date_of_max_return, date_of_borrowing, transaction_id, transaction_status, date_of_reservation, transaction_type, date_of_return, ISBN, user_id)
+VALUES(NULL, NULL, 300, 0, '2023-06-07 15:56:14', 1, NULL, 1146634707, 48);
+
 
 -- 8)TABLE:review
 
